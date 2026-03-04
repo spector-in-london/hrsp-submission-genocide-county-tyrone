@@ -14,7 +14,7 @@ Senator Cruz,
 
 My name is Brian Spector. I am your constituent, a dual US/UK citizen and Texan with 30 years in cryptography, cybersecurity, and digital forensics, five patents in zero-knowledge proof cryptography, and a previous company that sold cryptographic technology to the U.S. Air Force and the UK's GCHQ.
 
-Everything stated in this letter and the DoJ HRSP referral package is backed by court-ready evidence and contemporaneous documentation. None of it is hyperbole. All of it is online: 
+Everything stated in this letter and the DoJ HRSP referral package is backed by court-ready evidence and contemporaneous documentation. None of it is hyperbole. All of it is online: [https://github.com/spector-in-london/hrsp-submission-genocide-county-tyrone](https://github.com/spector-in-london/hrsp-submission-genocide-county-tyrone)
 
 This urgent matter is kinetic, real-time and impacts our ongoing war efforts. One murder attempt has been made on my fiancee already, my family's lives are at risk. I need your help to secure US strategic and economic interests and my family's safety.
 
@@ -46,7 +46,7 @@ I fled the UK with my fiancee, Nicola McNamee, in mid-December after Kent County
 
 The UK served a Technical Capability Notice on Amazon Web Services to disable DNS settings and on Microsoft. Inside Office365, they used it to plant a fabricated cardiology letter inside an email Nicola drafted, and then planted it in my inbox: The email contains a letter from a consultation that never happened, describing heart disease she does not have, designed to explain her death under general anesthesia in Istanbul in December 2023. Forensic examination of the email proves the tampering: five attachments, all modified to the identical second, four months after the email was sent. That is not a hack. That is the UK government using an American company's own infrastructure as a murder weapon.
 
-My EEA filing provided digital forensic evidence that this enterprise had partnered with APT29, a Russian Foreign Service cyber-war group. An APT29 operative infiltrated my start-up's founding team and attacked my fiancee by directing her to a web page over Microsoft Teams that contained a malware loader. The malware infection was eventually used as cover for the TC warrant access the UK government had already acquired. They cynically knew their **write access** control over our accounts and the destruction of evidence they invoked would be blamed on APT29, and we fell for it. We only discovered the email in a backup of our servers this weekend.
+My EEA filing provided digital forensic evidence that this enterprise had partnered with APT29, a Russian Foreign Service cyber-war group. The APT29 operative identified in the related EEA filing, Lilia Severina, infiltrated my start-up's founding team and attacked my fiancee by directing her to a web page over Microsoft Teams that contained a malware loader. The malware infection was eventually used as cover for the TC warrant access the UK government had already acquired. They cynically knew their **write access** control over our accounts and the destruction of evidence they invoked would be blamed on APT29, and we fell for it. We only discovered the email in a backup of our servers this weekend.
 
 - November 2023: The original email is created just prior to Nicola's trip to Istanbul for surgery in late November 2023. The email contains the fraudulent letters from May 2023 that never happened.
 
