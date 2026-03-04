@@ -6,13 +6,15 @@
 
 **Statutory basis:** 18 U.S.C. 1091 (Genocide), 18 U.S.C. 2340 (Torture)
 
-**Submitted to:** DOJ Human Rights and Special Prosecutions Section via Senator Ted Cruz (R-TX)
+**Status:** DRAFT. This package is under active development and has not yet been formally transmitted to DOJ HRSP.
+
+**Intended recipient:** DOJ Human Rights and Special Prosecutions Section via Senator Ted Cruz (R-TX)
 
 ---
 
 ## What This Repository Contains
 
-This is a public record of a criminal referral to the United States Department of Justice, Human Rights and Special Prosecutions Section, documenting:
+This is a draft criminal referral package intended for the United States Department of Justice, Human Rights and Special Prosecutions Section. It is published here for evidence preservation and public accountability while the submission is finalized. The package documents:
 
 1. A sustained campaign of covert genocide using fabricated cardiac diagnoses targeting the Irish Catholic population of County Tyrone, Northern Ireland
 2. The attempted murder of Nicola McNamee through fabricated medical records at KIMS Hospital, Kent, UK
