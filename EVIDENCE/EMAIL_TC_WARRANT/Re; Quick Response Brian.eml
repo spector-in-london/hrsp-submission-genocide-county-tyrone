@@ -1,0 +1,130 @@
+Delivered-To: brian@2real.stream
+Received: by 2002:a17:907:6e89:b0:b93:48d0:13d9 with SMTP id sh9csp269626ejc;
+        Wed, 25 Feb 2026 06:22:17 -0800 (PST)
+X-Received: by 2002:a05:651c:f02:b0:385:b57a:53fc with SMTP id 38308e7fff4ca-389a5de792amr54732821fa.22.1772029337240;
+        Wed, 25 Feb 2026 06:22:17 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1772029337; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=gqBryVy4lqqw3ULRFO+pBGwpiEgE7Di2RLGZtbpF2LYURwbTlt104mbPbUOSI+cArm
+         QIzF+mcfwgdqzsVWmVoL1pwJQXswvSb3SVfQ66LOkSUpsrzla5/m/jx6YsPZa3PSxODN
+         yd6RVZgqyDk/2AZkzLWgnhlr/bi6+i/tInsyqiIkXb60iqX7lNtrjAGdi8ixptAsu1k3
+         X76YajkUlffdSyx4EF5nLkvJxFHHTlbC2zdO1I4RHtPQCkCfjoHuNPjRJd+ogiULsIK5
+         n/prozXqKAF2C7PH1y7UI8HTdorUa0N4kDVm2txjuGM9Q2g+E9KDsiKMnVyQi+v5zcFw
+         W/6Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=NADy/jXvvT0IPHe1eJ4SDwcfHPcUUWnrIq7GKDvF/wA=;
+        fh=c2SYFHSPYy2U83pCo5KwtSfa6AWUai/Vq2vSVbc6Jh0=;
+        b=WkL354VQTtt9lf+EbzP+e3hiDTJxZiZQa39jnCep6pwXcf9nuFL+PJongReF3xGlNu
+         7G9NHdXFrw/LMzU63CWUGvXmxW2dG4HbZhd6c48NcALUndR7MGECx45FpGwRlkWRY+xP
+         /FHLvci0rTWvg7v4ep2JvXpOuynM60pTcwCkSGNIQogHGmBf3WEAGyR5IQzOxqIqM/nk
+         oMUqjRLtJZQbSFJcuirmUI+2o47ddvtHv/vOf28azPy2W7ntzQAXExroE21j20jEo55v
+         ESrb6pf8BWu7pUMC/7vKhFslHRIDErwnBIeZVMOt3VTspqB+KxD2h5Lp1bVK1eEZ70C6
+         kusw==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=FNVSMfbW;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of kafinhausaharuna@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kafinhausaharuna@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=neutral header.i=@2real.stream
+Return-Path: <kafinhausaharuna@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 38308e7fff4ca-389a78bf03bsor23241001fa.8.2026.02.25.06.22.16
+        for <brian@2real.stream>
+        (Google Transport Security);
+        Wed, 25 Feb 2026 06:22:17 -0800 (PST)
+Received-SPF: pass (google.com: domain of kafinhausaharuna@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=FNVSMfbW;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of kafinhausaharuna@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kafinhausaharuna@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=neutral header.i=@2real.stream
+ARC-Seal: i=1; a=rsa-sha256; t=1772029336; cv=none;
+        d=google.com; s=arc-20240605;
+        b=dZB3K3pBDHKE3PM7xmDQYZSOVzidXtqUb8VlF2Gi0x2hvp4tL9Wgm9fnZdBfWHeeHU
+         u+x92JeMD9JXRgmNUtWqTXEzbomw546/13I9FKcH4LsyqpeoTU/bQ4SsfYrlopjHtWs2
+         JsxEQ3HkLeMNwXD8aVU/raBhPMTe/zHTJZlmm99Pr0IrxlJEVYze9AdAQeyzPgWKTTFj
+         0y877KBbZ+3zIKq733O0ebroNKdirdf3hG0k0ZU1fJE6d5cqse7+psMK2rGpxb4o0utj
+         XS89D84Xsrk4Y/PPEbvQZWT8xukWqRlVW8DS6HVZKytBPCBL8hUo5Fjj/YVgMs0/RA2o
+         s0+w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=NADy/jXvvT0IPHe1eJ4SDwcfHPcUUWnrIq7GKDvF/wA=;
+        fh=c2SYFHSPYy2U83pCo5KwtSfa6AWUai/Vq2vSVbc6Jh0=;
+        b=ZsVI6F43aCQWD0b5LPYLRgxRvDJ4G4IpSkYD21B0n8sL6iEHjYe1Vx6//JvzoBS3oJ
+         lR8p+dYVjhL1C2dxUw8h8W+Tf/6y4zu1fVsflG49Jt0LML3DzPdJIaeQkJR6d/eoYrAz
+         vFkEYsVVjQFQyPpVV6JYlRquspt1uC7Ozluc+iqTZq6VZ0RzbfXB7LOb47YKuVX/3pVn
+         aRUURrrkd4nkCdXx/3W9Ui0alDaQjX+2y3H9vcFu7UGdZCHUwPvnN26m765IEykEAJVW
+         i85qSUkkDy5UwmvY830HlTC0CyFrgUvbkLqaRHWrQPFZSNNhQ7cLvvaye90VtlhrD1s9
+         EKHw==;
+        darn=2real.stream
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1772029336; x=1772634136; darn=2real.stream;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=NADy/jXvvT0IPHe1eJ4SDwcfHPcUUWnrIq7GKDvF/wA=;
+        b=FNVSMfbWE8epQkaFyp0IO7nmjLoCEezEkde3I8tN49ddelHtKNAxbMaAqhr8Zxw7cB
+         i9mKshwnCYDQawm+NOzLsB3Tlb/ij5FjRPjnEeKO8kqhVOphLFdodKyalL9UNU2LQKcR
+         eUR1WSc1GbvjcjLsYLmxAmAA1shJ5pHM6paY7tuZ5UBxdPKhb/KWFHOEBo+ZhCUgopK5
+         YrP8sz9S2BE76Nr9QZfJJgM/WTgQTLbfMjtxUJZrUzvmEJeOmJBIG/Bk4QUdCWgJjnXn
+         Zdu9EI9PBv0/6oMcbHni9IzTJFIttdrHQh8sAboYhRJBO5nWA6x44pdagJOi3pCwy2cK
+         I/Mg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1772029336; x=1772634136;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=NADy/jXvvT0IPHe1eJ4SDwcfHPcUUWnrIq7GKDvF/wA=;
+        b=P0RIgfvDFKYWp6L2LKbC5sxplNuQA1dWDUdyKysVYwH0s4NbwKYYmIQ57e1B08JfKG
+         NPiiH9WGlQsiYLGOO5C/zE4OfwvZ92NaBGnZbwDX93upPSjwI8sAYXfgn1enHfvaRx2u
+         wrdZZ0QV7TWoUhOexdBPWTbkMgDxJe9Yriq3PfhLP0fRvGa149L5R6YH4EyG1t719LTO
+         GEZhowf3397biKQ7uIc/yNuWRdrok71ok4l8OSm9dYtdeCV5z7on3OdNCnir3D2BimrA
+         wRdHlhNpgZupJ4Pcqv3Csb9Iew1z3F/8BiIn29w6r0lUpMj5p/LALWJPg8l1szwJX3Zt
+         1DfA==
+X-Gm-Message-State: AOJu0Yyqokjmj3x491WMhuQ0GTI5WCn9kXJhPc2Wz5MC9WlDcljOtajt
+	0jpBKQkJZxKisbecl/729A+2WmaAf9OBZopYFwgXzP3S4Fc/QH5SSeAYIPFSbfamFpgIIhs27Ty
+	hq0tvXk4e6WaKrRC/q2Sfi06LDUAuVsLTax0XsRzHnJiOoTgAI6p4
+X-Gm-Gg: ATEYQzyCQsBaGR2rCdj5MX3FpAfKYbxGW5xyqBIFHZMhumOF5gKgAVtlpdMxT/4EHxI
+	LWnJjQPhWj4IKaNEJ003MPJSnnh0JM1O3X8zqoxN4zWDCxjEMgFV0R6Colv/fsOdXfqHYvU0a+q
+	q9efgR3W7cjUSxb+P6C8zcQRKYM0hTWa00r15F14BiyTdyyiDSPYFJr60NzQ5Sp+pPgv5ulXoxJ
+	uM6+ggpPHyz69u9EgXWPOmr1EJ/o0ntdT8BQEO25Cdz7s0RKBxs/TiAstkrpxva440VfiQYMBZG
+	CZud1RT3kDg=
+X-Received: by 2002:a2e:bc09:0:b0:385:d1a0:6be0 with SMTP id
+ 38308e7fff4ca-389a5de7694mr50061361fa.19.1772029336174; Wed, 25 Feb 2026
+ 06:22:16 -0800 (PST)
+MIME-Version: 1.0
+From: Nicola McNamee <kafinhausaharuna@gmail.com>
+Date: Wed, 25 Feb 2026 15:22:05 +0100
+X-Gm-Features: AaiRm51ib7o3nzPtH9mnHd4reVLm4tqN4fbH0X-0AEuT-BnNYEzv65uN684FOnA
+Message-ID: <CADqiaDvCNqacPH-X3a1U-on+XnNBaraxdx_DJV2GvcH-e83Rhg@mail.gmail.com>
+Subject: Re: Quick Response Brian
+To: brian@2real.stream
+Content-Type: multipart/alternative; boundary="0000000000001d41e0064ba6bba2"
+
+--0000000000001d41e0064ba6bba2
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Brian
+
+Please share your WhatsApp number at your earliest convenience. I will be
+reaching out personally with important instructions that require your
+immediate attention. Kindly remain available and await my message once your
+contact is shared.
+
+Best regards,
+
+Nicola McNamee
+
+--0000000000001d41e0064ba6bba2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Brian =C2=A0<br><br>Please share your WhatsApp number=
+ at your earliest convenience. I will be reaching out personally with impor=
+tant instructions that require your immediate attention. Kindly remain avai=
+lable and await my message once your contact is shared.<br><br>Best regards=
+, =C2=A0<br><br>Nicola McNamee</div>
+
+--0000000000001d41e0064ba6bba2--

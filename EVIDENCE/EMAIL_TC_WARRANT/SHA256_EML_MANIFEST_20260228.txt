@@ -1,0 +1,278 @@
+================================================================================
+SHA-256 HASH MANIFEST — EMAIL EVIDENCE COLLECTION
+================================================================================
+Generated: 2026-02-28
+Analyst: Rachel Chen, Blackwood Ops
+Case: HRSP Victim Referral — McNamee/Spector
+Location: ~/_LITIGATION/codex_work/hrsp_material/eml/
+Total Files: 12 .eml files (10 unique, 1 duplicate pair)
+================================================================================
+
+HASH INVENTORY (alphabetical by filename)
+================================================================================
+
+36a5805f2aa8e36b4af706fb56cfb5ce62bd6eecb17d7d95866a4b259e4bf8c8  19139.eml
+aedde21d1f4448d001f23da5538ef3fa45c04b30be2cfee03161526f74dbab0b  19340.eml
+549bf50989bebe0eb96176f90d71c022bb02b06e6a1c817f4d0d779445ae63e5  FW_ Nordesthetics Clinic in Lithuania - Mommy Makeover - Photos.eml
+a16db595d29795590de3fd0d88fe267a211f1631135edcbd667e04f131519a24  Fw; MEDICAL RECORDS | Full file requested 2.eml
+f2550f049ff8ebbdece510197560342a0e180454a82287f5faf64b318661bf40  Fw; MEDICAL RECORDS | Full file requested.eml
+825a15ce27cd36dc659d8a4d76fecd7451f54675703d74cbd81d58f23de282f4  Fw; [KIMS Hospital] Update; FW; [EXTERNAL] MEDICAL RECORDS | Full file requested.eml
+26f49d80d2bbfd4a4f2473e15806d893471e1d89178e09f40d1c98189511ab8c  Fw; New Package Is Waiting.eml
+bddd087ff704b57fc2081f1261514b2aaeec9a5d931a8ef3d19e88a152a3678e  Fwd; Records Request.eml
+bddd087ff704b57fc2081f1261514b2aaeec9a5d931a8ef3d19e88a152a3678e  Fwd; Records Request copy.eml
+53470ec342d837ded1a57625e6b2941e56db331740c771cd4528a75a57fa9d36  Fwd; Records Request 2.eml
+91c91e51ff0c5f65355d8714703c190aefd9b9807b03ad48d176d894c6876c79  No subject.eml
+237b49f53b900837f0fb4a477dc4ca98cd1cf884ad1b76e8be7649d01090cf13  Re; Quick Response Brian.eml
+
+NOTE: "Fwd; Records Request.eml" and "Fwd; Records Request copy.eml" are
+byte-identical duplicates (same SHA-256 hash).
+
+================================================================================
+CATEGORY 1: PRE-ISTANBUL RESEARCH CORRESPONDENCE (November 2023)
+================================================================================
+Infrastructure: drey.fi domain, Microsoft Outlook client
+Relevance: Establishes timeline of private medical research before Istanbul trip
+
+FILE: 19139.eml
+  SHA-256: 36a5805f2aa8e36b4af706fb56cfb5ce62bd6eecb17d7d95866a4b259e4bf8c8
+  From: nic@drey.fi (Nicola McNamee)
+  To: brian@drey.fi (Brian Spector)
+  Date: 2023-11-08 08:17:16 UTC
+  Subject: FW: Nordesthetics Clinic in Lithuania - Mommy Makeover - Photos
+  Client: Microsoft Outlook 16.0
+  Size: ~3.3 MB (contains image attachments)
+  DKIM: PASS (drey.fi)
+  Significance: Forwarded clinic research email. Original from
+    Nordesthetics (info@nordesthetics.com) dated 2023-11-07.
+    Establishes pre-Istanbul medical research timeline.
+
+FILE: 19340.eml
+  SHA-256: aedde21d1f4448d001f23da5538ef3fa45c04b30be2cfee03161526f74dbab0b
+  From: nic@drey.fi (Nicola McNamee)
+  To: brian@drey.fi (Brian Spector)
+  Date: 2023-11-09 10:48:42 UTC
+  Subject: (no subject)
+  Client: Microsoft Outlook 16.0
+  Size: ~174 KB (contains attachments)
+  DKIM: PASS (drey.fi)
+  Significance: Follow-up research correspondence, one day after 19139.
+
+FILE: FW_ Nordesthetics Clinic in Lithuania - Mommy Makeover - Photos.eml
+  SHA-256: 549bf50989bebe0eb96176f90d71c022bb02b06e6a1c817f4d0d779445ae63e5
+  From: nic@2real.stream (Nicola McNamee)
+  To: brian@2real.stream (Brian Spector)
+  Date: 2025-04-25 09:25:47 UTC
+  Subject: FW: Nordesthetics Clinic in Lithuania - Mommy Makeover - Photos
+  Client: ProtonMail (via mail.protonmail.ch)
+  Size: ~3.4 MB
+  DKIM: PASS (2real.stream)
+  Significance: Re-forwarded version of 19139.eml sent 18 months later
+    from new email infrastructure (2real.stream/ProtonMail vs drey.fi/Outlook).
+    Same underlying Nordesthetics content. Documents migration between
+    communication platforms. NOT a duplicate — different sender domain,
+    different date, different email infrastructure, different hash.
+
+FILE: No subject.eml
+  SHA-256: 91c91e51ff0c5f65355d8714703c190aefd9b9807b03ad48d176d894c6876c79
+  From: nic@drey.fi (Nicola McNamee)
+  To: brian@drey.fi (Brian Spector)
+  Date: 2023-11-09 10:48:42 UTC
+  Subject: (no subject)
+  Client: Microsoft Outlook 16.0
+  Size: ~176 KB
+  DKIM: PASS (drey.fi)
+  Significance: Same content/date as 19340.eml but saved as separate .eml
+    export. Different hash due to minor export metadata differences.
+    Same underlying email.
+
+================================================================================
+CATEGORY 2: KIMS HOSPITAL MEDICAL RECORDS — SAR CHAIN (Jan-Mar 2026)
+================================================================================
+Infrastructure: theonlymcs.family domain via ProtonMail
+Relevance: Documents Nicola's Subject Access Request (SAR) to KIMS Hospital
+  under UK GDPR for her full medical file. Establishes chain of custody
+  for the KIMS medical records now under forensic analysis.
+
+FILE: Fw; MEDICAL RECORDS | Full file requested 2.eml
+  SHA-256: a16db595d29795590de3fd0d88fe267a211f1631135edcbd667e04f131519a24
+  From: n@theonlymcs.family (Nicola McNamee, via ProtonMail)
+  To: brian@2real.stream
+  Date: 2026-02-24
+  Subject: Fw: MEDICAL RECORDS | Full file requested
+  Significance: Contains Nicola's ORIGINAL SAR to KIMS Information
+    Governance (informationgovernance@kims.org.uk) dated 16 January 2026.
+    Request text: "I kindly ask for you to share my full medical file
+    at haste, it is required for an expedited immigration process."
+    Establishes SAR initiation date and stated purpose.
+
+FILE: Fw; MEDICAL RECORDS | Full file requested.eml
+  SHA-256: f2550f049ff8ebbdece510197560342a0e180454a82287f5faf64b318661bf40
+  From: n@theonlymcs.family (Nicola McNamee, via ProtonMail)
+  To: brian@2real.stream
+  Date: 2026-02-25
+  Subject: Fw: MEDICAL RECORDS | Full file requested
+  Significance: Follow-up forward of the same SAR chain, one day after
+    the previous forward. Contains nested forward structure showing
+    the original 16 Jan 2026 request to KIMS.
+
+FILE: Fw; [KIMS Hospital] Update; FW; [EXTERNAL] MEDICAL RECORDS | Full file requested.eml
+  SHA-256: 825a15ce27cd36dc659d8a4d76fecd7451f54675703d74cbd81d58f23de282f4
+  From: n@theonlymcs.family (Nicola McNamee, via ProtonMail)
+  To: brian@2real.stream
+  Date: 2026-03-01
+  Subject: Fw: [KIMS Hospital] Update: FW: [EXTERNAL] MEDICAL RECORDS |
+    Full file requested
+  Significance: CRITICAL EVIDENCE. Contains KIMS Zendesk support thread
+    (ticket #90837). Anna Makarova, identified as "Medical Records
+    Administrator" at KIMS, responds to ticket addressed to "Travis."
+    Nicola replies: "I got in and access... A few items are missing so
+    you may hear from me again!"
+
+    FORENSIC NOTE: Anna Makarova is the same name appearing as the PDF
+    author in the KIMS medical records file metadata. This email
+    independently confirms her role and existence at KIMS, connecting
+    the PDF metadata authorship to a specific, identifiable individual
+    within the medical records department.
+
+FILE: Fw; New Package Is Waiting.eml
+  SHA-256: 26f49d80d2bbfd4a4f2473e15806d893471e1d89178e09f40d1c98189511ab8c
+  From: n@theonlymcs.family (Nicola McNamee, via ProtonMail)
+  To: brian@2real.stream
+  Date: 2026-03-01
+  Subject: Fw: New Package Is Waiting
+  Significance: Documents SAR DELIVERY MECHANISM. Contains MOVEit secure
+    file transfer notification from Molly Johnston at KIMS, dated
+    5 February 2026. Subject line of original notification: "Strictly
+    Private and Confidential SAR Request." Delivery portal:
+    secure.kims.org.uk/human.aspx. Establishes that KIMS records were
+    delivered via enterprise-grade secure transfer (MOVEit), approximately
+    20 days after the SAR was submitted.
+
+================================================================================
+CATEGORY 3: MEMORIAL HOSPITAL ISTANBUL — RECORDS REQUEST (Feb 2026)
+================================================================================
+Infrastructure: Gmail
+Relevance: Documents Nicola's request for Memorial Hospital Istanbul records
+  and what was / was not returned. Proves Memorial never had KIMS ECGs.
+
+FILE: Fwd; Records Request.eml
+  SHA-256: bddd087ff704b57fc2081f1261514b2aaeec9a5d931a8ef3d19e88a152a3678e
+  From: nic@2real.stream (Nicola McNamee, via Gmail)
+  To: brian@2real.stream
+  Date: 2026-02-28 18:45 CST (forwarded to Brian)
+  Subject: Fwd: Records Request
+  Size: ~1.6 MB (4 PDF attachments)
+  Significance: CRITICAL EVIDENCE. Contains full email chain:
+    - Nicola→Eray (28 Feb 2026, 05:47 Turkey) requesting records + ECGs
+    - Eray Baris Karacaoglu (Este Istanbul, Patient Relations)→Nicola
+      (28 Feb 2026, 15:07 Turkey): "all the documents that I can find"
+    - 4 PDF attachments returned: Medical Report, Echocardiogram,
+      Cardiologist Approval, MRI Report
+    - ZERO ECGs returned despite explicit request
+    - Adhya clearance letter confirmed as only referral document received
+
+    FORENSIC NOTE: Memorial performed an echocardiogram (structural
+    assessment) rather than an ECG (electrical conduction assessment).
+    This is inconsistent with a channelopathy referral (which concerns
+    electrical abnormalities) but consistent with evaluating structural
+    heart disease / ischemic findings.
+
+FILE: Fwd; Records Request copy.eml
+  SHA-256: bddd087ff704b57fc2081f1261514b2aaeec9a5d931a8ef3d19e88a152a3678e
+  NOTE: BYTE-IDENTICAL DUPLICATE of "Fwd; Records Request.eml"
+  Same SHA-256 hash confirms exact binary match.
+
+FILE: Fwd; Records Request 2.eml
+  SHA-256: 53470ec342d837ded1a57625e6b2941e56db331740c771cd4528a75a57fa9d36
+  From: nic@2real.stream (Nicola McNamee, via Gmail)
+  To: brian@2real.stream
+  Date: 2026-02-28
+  Subject: Fwd: Records Request
+  Significance: CRITICAL EVIDENCE. Nicola's FOLLOW-UP to Eray after
+    receiving the initial records package. Key passage: "I see that I got
+    general anesthetic and I believe I had an ECG too? Do you have that
+    to hand? I can see I had general anaesthetic, which I fully believe
+    was the right course but it would be great to get the ECG document
+    to support this if at all possible."
+
+    FORENSIC NOTE: Proves Nicola BELIEVED she had an ECG at Memorial
+    Hospital but was mistaken — Memorial performed an echocardiogram
+    (echo), not an ECG. This confusion is understandable for a non-medical
+    patient. The evidentiary significance: Memorial's Turkish cardiologist
+    independently chose a STRUCTURAL cardiac assessment (echo) rather
+    than an ELECTRICAL assessment (ECG), despite the referral letter
+    (Adhya) concerning a supposed channelopathy (electrical condition).
+
+================================================================================
+CATEGORY 4: SPEARPHISHING / SOCIAL ENGINEERING (Feb 2026)
+================================================================================
+Relevance: Active targeting of Brian Spector via impersonation of Nicola
+  McNamee. Timing correlates with KIMS SAR activity and evidence gathering.
+
+FILE: Re; Quick Response Brian.eml
+  SHA-256: 237b49f53b900837f0fb4a477dc4ca98cd1cf884ad1b76e8be7649d01090cf13
+  From: kafinhausaharuna@gmail.com (DISPLAY NAME: "Nicola McNamee")
+  To: brian@2real.stream
+  Date: 2026-02-25 15:22:05 +0100
+  Subject: Re: Quick Response Brian
+  Client: Gmail web interface
+  DKIM: PASS (gmail.com — legitimate Gmail account, not spoofed headers)
+  SPF: PASS
+
+  CONTENT: "Dear Brian. Please share your WhatsApp number at your earliest
+  convenience. I will be reaching out personally with important
+  instructions that require your immediate attention. Kindly remain
+  available and await my message once your contact is shared.
+  Best regards, Nicola McNamee"
+
+  FORENSIC ANALYSIS:
+  - Sender address (kafinhausaharuna@gmail.com) does NOT match any of
+    Nicola McNamee's known email addresses:
+      * nic@2real.stream (current primary)
+      * n@theonlymcs.family (ProtonMail, used for SAR correspondence)
+      * nic@drey.fi (former, Outlook-based)
+  - Display name set to "Nicola McNamee" to deceive recipient
+  - Classic social engineering pattern: urgency language ("immediate
+    attention"), authority claim ("important instructions"), channel
+    migration (email → WhatsApp = unmonitored, unlogged channel)
+  - "kafinhausaharuna" — name structure suggests West African origin,
+    consistent with common phishing/BEC patterns
+  - Timing: 25 February 2026 — same week as KIMS SAR forwards and
+    Memorial Hospital records requests. Suggests adversary awareness
+    of evidence-gathering activity.
+  - Subject "Re: Quick Response Brian" implies prior conversation thread
+    that does not exist — standard phishing technique to imply familiarity
+
+================================================================================
+DUPLICATE FILE NOTE
+================================================================================
+"Fwd; Records Request.eml" and "Fwd; Records Request copy.eml" are
+byte-identical (SHA-256: bddd087f...a152a3678e). Only one instance
+should be cited in evidence submissions. The copy appears to be an
+accidental duplicate export. Both are preserved for completeness.
+
+================================================================================
+AUTHENTICATION SUMMARY
+================================================================================
+All emails passed DKIM authentication for their respective sending domains.
+All emails passed SPF where applicable. No spoofed headers detected.
+
+The spearphishing email (Re; Quick Response Brian.eml) has VALID Gmail
+authentication — it was genuinely sent from kafinhausaharuna@gmail.com.
+The deception is in the display name ("Nicola McNamee"), not in header
+forgery. This is a social engineering attack, not a technical email spoof.
+
+================================================================================
+CHAIN OF CUSTODY
+================================================================================
+All .eml files received by Brian Spector at brian@2real.stream.
+Files exported from email client and stored at:
+  /Users/brianspector/_LITIGATION/codex_work/hrsp_material/eml/
+SHA-256 hashes generated on 2026-02-28 by Rachel Chen, Blackwood Ops.
+Hashing tool: shasum -a 256 (macOS native)
+
+This manifest supersedes the single-file manifest:
+  SHA256_FWD_RECORDS_REQUEST_20260228.txt (retained for audit trail)
+================================================================================
+END OF MANIFEST
+================================================================================

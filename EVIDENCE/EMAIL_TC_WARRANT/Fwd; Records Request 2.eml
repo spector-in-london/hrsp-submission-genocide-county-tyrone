@@ -1,0 +1,303 @@
+Delivered-To: brian@2real.stream
+Received: by 2002:a17:907:3d56:b0:b93:48d0:13d9 with SMTP id hl22csp946046ejc;
+        Sat, 28 Feb 2026 15:27:42 -0800 (PST)
+X-Received: by 2002:a17:907:60d0:b0:b8f:7200:63ca with SMTP id a640c23a62f3a-b9375847a7amr575489166b.11.1772321261789;
+        Sat, 28 Feb 2026 15:27:41 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1772321261; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=Nr/l/ZoXEHypKtdnN9fi0rTOdsrrnACK6CfJwcGLf4lTjMlGJls+Z5S0qQkD7UWf6M
+         vMlyjTZn7MAu6K2HyyPUeGGCMq0si/UYeQ6M0vwrJV4AehIWYKH+v0XZWLzbKahFe1bb
+         kaVnOnaLMhNoMYKNyNxGONe1juPm0gGZ52mvPyqqGi89c9P6V5lRcJLahYxQaT/ViXYq
+         OH7wFbkuv43mb8lsqaCMpy/KCNWLQyllmqkBPXPfu3PTZ/pynSZFZ6X/IJLc9erOVqUp
+         2oOga/MFa5/1iEoBhQmV6FcVYS81lN7uBpu++TaBWehH7LM3PjobmTZ/gCP5cKnN0CBB
+         NRTw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=lTauMKUkREwrTNAUP3IpnMxMHVsRxn561msxpkcorC8=;
+        fh=kVstuCU/znqn3X9lEjQI1JNsvolUQqltL83HfJBGO4U=;
+        b=dW2pdTztvn9BE/CgOta+TGx/lAernFs/aGYE59e79VyPMp0wNmjOhYO8ITp4apH00S
+         hs1lycgh0D+5Sgi5TPQJY2Wc5O9HIEgbJMJWFZeD1yLlF5HRsvJbPYDKwYnqppEVdenB
+         mfY1SkVl66rDle5H3L2EYa8iOJoMC+Yo5f8dzjCQSXtxweVky7/0je1cwbY0p2CO2f5T
+         ObN2lYAkiRORt/LgkXoW6r7UcQFUvGsvVMb9pPan6Y2gyJQwk86W39pJ8Immzy1ItFul
+         wTS5A9rDtncz1T/adbxF81RYzi+vITFq5cLtt3KdrvXVhUVDKhRwePHqIJZ3C2iK6KTZ
+         n2dQ==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@2real.stream header.s=google header.b=P7fGYvIz;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of nic@2real.stream designates 209.85.220.41 as permitted sender) smtp.mailfrom=nic@2real.stream;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=2real.stream;
+       dara=neutral header.i=@2real.stream
+Return-Path: <nic@2real.stream>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-b935a8e89d0sor235996466b.1.2026.02.28.15.27.41
+        for <brian@2real.stream>
+        (Google Transport Security);
+        Sat, 28 Feb 2026 15:27:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of nic@2real.stream designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@2real.stream header.s=google header.b=P7fGYvIz;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of nic@2real.stream designates 209.85.220.41 as permitted sender) smtp.mailfrom=nic@2real.stream;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=2real.stream;
+       dara=neutral header.i=@2real.stream
+ARC-Seal: i=1; a=rsa-sha256; t=1772321261; cv=none;
+        d=google.com; s=arc-20240605;
+        b=UmoRh4KEsff7wv8xeAwOu87GsRICHBttQKstaWiML38nQVs5umZzX7kkJjOWw0xGL/
+         bTSbvapwHGDVdLCBwSB350c5xrflpphjBNX8pumTU7f7nncGG03nOmRuijhSCdzklhfW
+         KlmLFJPyLSG93yjgboXfe728rCGWT/W7HRs1MmyJri9qnHVCmLCZtIb60pG3EDcmgNU8
+         6KbVI6jLaqTrDEwbxQltAATBQLmMyr3k/CH9zu//oEMYCYhRBMOLm6weyZjE2Hq8M+XQ
+         AyAmTUIHMVAK6wlL9hildJ9zqOGUOx1awcw+6XqvPCGjGmJZZUeFfAeK4FHbBn2GEeJy
+         4cSg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=lTauMKUkREwrTNAUP3IpnMxMHVsRxn561msxpkcorC8=;
+        fh=kVstuCU/znqn3X9lEjQI1JNsvolUQqltL83HfJBGO4U=;
+        b=Yv6J+xHrigVa5DSYaE569SoKQEmgT8BOwemndRThJJR+kVUXpJXfbCFPfU4xaSe+GJ
+         sBuVyLyBqFEOIAovl3rWDTRCa9NLmL6EWenfvosn1Ggl0+96W3quUvsGRkUBhwSf83F+
+         MzZBdj/eCnXBIuuSVpIlKPZpg48LET4de6sB4Eg/TCaEp1/9vaOKULYe0h+w+oOoy6ph
+         c6csxPbWxOZP6TPVT91oQjILuU2z+7+iU3V4HV365ptuBGli0CYGe5LUWDCdmHuR2UAv
+         sLJbfHuban5roBqAi1VYhm43UmeWoXrEzrlEnTlftVrCdcM/fU3B1zL5/bhhFyXgOqW0
+         vEYA==;
+        darn=2real.stream
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=2real.stream; s=google; t=1772321261; x=1772926061; darn=2real.stream;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=lTauMKUkREwrTNAUP3IpnMxMHVsRxn561msxpkcorC8=;
+        b=P7fGYvIzOy6qzV2Bj7VpG5YPYI68t82XdVNQ8m07MBiJSRQYeg0jmYoLfaSjbCNT+C
+         Ki8dQT+pOBEkqWplGBOaP8zEsVF6KrjBX3c+khFjh952w3Qtjg0dkHhrwqYcA+uqNBPw
+         GvGa/5veK1Dubj9ivmHPNr3KVO15ioOVg2Gno=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1772321261; x=1772926061;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=lTauMKUkREwrTNAUP3IpnMxMHVsRxn561msxpkcorC8=;
+        b=R/iLceAwHL/z3Xl7fERUtbDvRrqYYQeNglRpolC46PhL0XJyFeYLnMa+pqS779fC0X
+         rHy+es7toTe+q+85HHFADxv8akREBhTNvg/4N4gfAeIKF0rONRN64YtrXPHjbZvPY+BQ
+         Qi6Aun6HaAKEb0HVsfMRbEBjGb7mmBYq22IdDm5lErRxD8KhApKBeDWzCok4yIPn80GE
+         6bOymc4ekIaFiIjHviBhn46zNsCSr6AHImbUKyi5PuF0dP/QYW1s9RhWvQWAmp6jjT84
+         +/dAMorYyLDzKTSujNj2rrNLNz5rGcHz0SBVzAJKWuG9Y/qvHHZ8hjgI6LvlewYyNPOK
+         TmRg==
+X-Gm-Message-State: AOJu0YzaUppmKdkATbRe59C02L1k9c2fXeGRDy0e+FO6AziW3J/F/YPD
+	HRWqVCOgappVq/53cKEfJ5nG4x+fIycsamjNp+cygrfxyCrjqScS9g9WszNo8aZSm6r2qLHX/vY
+	uNtYryYqvQqBH1xPdjkNkCslFHMSw6Z47Bw+ErksS0p4RTEBtOSH3l/E7fV2j
+X-Gm-Gg: ATEYQzydWD8LAYnWRPdoTMZy95Zw+zpeNuID6Wyv5zIRMEDooTkcVP0liI/15nQr4l+
+	6rUjVVq4BFy3XnPu2WAHZo3s5L7Xz4j5kWeCt+EsjWFoZEYmj7oW189Vb1SmemNHWPQZvNpJ4bw
+	nMZ7V2BTPCKXu3aT9Afc1vDqEuWLF8rZeoTquFoFFK6pT9YXXdezgY+iBTw/sJ4AU7YzruRi4ko
+	Jt/S+uk0sN9EsUdGrSW3lExRzACSW1rqwXdi0bYmnvVSTEWx0oJZSTVBvcvVCTCcV5DpMlAHNdz
+	YLfIt6acXhFwYkrqCVrJg/oyahmBhDVIEzCDBRXs0g==
+X-Received: by 2002:a17:906:eec2:b0:b87:31d1:4133 with SMTP id
+ a640c23a62f3a-b937596b79amr416918666b.25.1772321260785; Sat, 28 Feb 2026
+ 15:27:40 -0800 (PST)
+MIME-Version: 1.0
+References: <CAD=VqK_ZAVxdTmZzRYx4p4nOuETCerr=MyDworfjW=C787y5Zg@mail.gmail.com>
+ <24311772312416@mail.yandex.com> <CAD=VqK9gwT_xXBrMfH9-o76Ummjv4w7-vZOefutnFjmbj9Va4w@mail.gmail.com>
+In-Reply-To: <CAD=VqK9gwT_xXBrMfH9-o76Ummjv4w7-vZOefutnFjmbj9Va4w@mail.gmail.com>
+From: Nicola McNamee <nic@2real.stream>
+Date: Sat, 28 Feb 2026 17:27:29 -0600
+X-Gm-Features: AaiRm503H_VqkLnLgVi6XHPAKWUaRPan12sf4XH1F5geub_K9lc6BPYQlxqvD_k
+Message-ID: <CAD=VqK8uXFiqH19z6Z15oVFg-u1u=K+-LZV+B0z3zc7TsgL_Tg@mail.gmail.com>
+Subject: Fwd: Records Request
+To: Brian Spector <brian@2real.stream>
+Content-Type: multipart/alternative; boundary="0000000000002d5f76064beab369"
+
+--0000000000002d5f76064beab369
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Nicola McNamee <nic@2real.stream>
+Date: Sat, Feb 28, 2026 at 5:26=E2=80=AFPM
+Subject: Re: Records Request
+To: Este =C4=B0stanbul4 <info4@esteistanbul.com>
+
+
+Hi Eray,
+
+Sorry for the double message. I see that I got general anesthetic and i
+believe I had an ECG too? Do you have that to hand?
+
+I can see I had general anaesthetic, which I fully believe was the right
+course but it would be great to get the ECG document to support this if at
+all possible.
+
+Thanks again,
+Nic
+
+Thanks
+
+Nic
+
+On Sat, Feb 28, 2026 at 3:07=E2=80=AFPM Este =C4=B0stanbul4 <info4@esteista=
+nbul.com>
+wrote:
+
+> Hi Nicola,
+>
+> I hope my email finds you well. Please find all the documents that I can
+> find in the attachment. For your information, medical report exists in
+> Turkish only.
+> I'll share your message to Dr. Ercan. Please say hi to Brian from us.
+>
+> Best Regards,
+>
+> --
+>
+>
+>
+> *Eray Baris Karacaoglu*
+>
+> *Patient Relations *
+>
+>
+>
+> *E: info4@esteistanbul.com <info4@esteistanbul.com>  M: +90 532 4117238 |
+> M: +90 (216) 570 66 66 (15 00)*
+>
+> *Ata=C5=9Fehir Memorial Hospital Vedat G=C3=BCnyol Street No. 30 34758 At=
+a=C5=9Fehir,
+> Istanbul*
+>
+> *www.esteistanbul.com <https://esteistanbul.com/>*
+>
+>
+>
+> ----------------
+> To: info4@esteistanbul.com (info4@esteistanbul.com);
+> Subject: Records Request;
+> 28.02.2026, 05:47, "Nicola McNamee" <nic@2real.stream>:
+>
+> Hi Eray,
+>
+> Can you please provide me my full medical records you created and also th=
+e
+> medical records you received from me or my own hospital/Dr prior to your
+> care. I'm emigrating to the USA and I need these for the immigration
+> process. Make sure to include the ECG/EKG printouts from the cardiologist
+> exams and his diagnoses that I was clear of any abnormalities (so I can g=
+et
+> health insurance easier in the USA easier). I really appreciate your help=
+.
+> If I didn't say it before, please extend our thanks to Dr. Ercan again.
+>
+> Thanks,
+> Nicola McNamee
+>
+>
+
+--0000000000002d5f76064beab369
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote gmail_quote_container"><=
+div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ---------=
+<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">Nicola McNamee</s=
+trong> <span dir=3D"auto">&lt;nic@2real.stream&gt;</span><br>Date: Sat, Feb=
+ 28, 2026 at 5:26=E2=80=AFPM<br>Subject: Re: Records Request<br>To: Este =
+=C4=B0stanbul4 &lt;<a href=3D"mailto:info4@esteistanbul.com">info4@esteista=
+nbul.com</a>&gt;<br></div><br><br><div dir=3D"ltr">Hi Eray,<div><br></div><=
+div>Sorry for the double message. I see that I got general anesthetic and i=
+ believe I had an ECG too? Do you have that to hand?</div><div><br></div><d=
+iv>I can see I had general anaesthetic, which I fully believe was the right=
+ course but it would be great to get the ECG document to support this if at=
+ all possible.</div><div><br></div><div>Thanks again,</div><div>Nic<br><br>=
+Thanks<br><br>Nic</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr=
+" class=3D"gmail_attr">On Sat, Feb 28, 2026 at 3:07=E2=80=AFPM Este =C4=B0s=
+tanbul4 &lt;<a href=3D"mailto:info4@esteistanbul.com" target=3D"_blank">inf=
+o4@esteistanbul.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204)=
+;padding-left:1ex"><div>Hi Nicola,</div><div>=C2=A0</div><div>I hope my ema=
+il finds you well. Please find all the documents that I can find in the att=
+achment. For your information, medical report exists in Turkish only.</div>=
+<div>I&#39;ll share your message to Dr. Ercan. Please say hi to Brian from =
+us.<br><br>Best Regards,<br>=C2=A0</div><div>--=C2=A0</div><div style=3D"ov=
+erflow:auto"><table style=3D"border:medium;border-collapse:collapse"><tbody=
+><tr style=3D"height:98.25pt"><td style=3D"overflow:hidden;vertical-align:t=
+op"><p style=3D"line-height:1.38;margin-bottom:0pt;margin-top:0pt;text-alig=
+n:center">=C2=A0</p></td><td style=3D"overflow:hidden;vertical-align:top"><=
+p style=3D"line-height:1.38;margin-bottom:0pt;margin-top:0pt"><strong style=
+=3D"font-weight:normal"><span style=3D"background-color:transparent;color:r=
+gb(33,44,97);font-family:montserrat,sans-serif;font-size:10pt;font-style:no=
+rmal;font-variant:normal;font-weight:400;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap">Eray Baris Karacaoglu</span></strong></p><=
+p style=3D"line-height:1.38;margin-bottom:0pt;margin-top:0pt"><strong style=
+=3D"font-weight:normal"><strong style=3D"background-color:transparent;color=
+:rgb(41,170,226);font-family:montserrat,sans-serif;font-size:8pt;font-style=
+:normal;font-variant:normal;font-weight:700;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap">Patient Relations=C2=A0</strong></stron=
+g></p><p style=3D"line-height:1.38;margin-bottom:0pt;margin-top:0pt"><stron=
+g style=3D"font-weight:normal"><span style=3D"background-color:transparent;=
+color:rgb(0,0,0);font-family:&quot;trebuchet ms&quot;;font-size:8pt;font-st=
+yle:normal;font-variant:normal;font-weight:400;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap">=C2=A0</span></strong></p><p style=
+=3D"line-height:1.38;margin-bottom:0pt;margin-top:0pt"><strong style=3D"fon=
+t-weight:normal"><strong style=3D"background-color:transparent;color:rgb(44=
+,50,102);font-family:montserrat,sans-serif;font-size:8pt;font-style:normal;=
+font-variant:normal;font-weight:700;text-decoration:none;vertical-align:bas=
+eline;white-space:pre-wrap">E:</strong><strong style=3D"background-color:tr=
+ansparent;color:rgb(0,0,0);font-family:montserrat,sans-serif;font-size:8pt;=
+font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;=
+vertical-align:baseline;white-space:pre-wrap"> </strong><span style=3D"back=
+ground-color:transparent;color:rgb(0,0,0);font-family:montserrat,sans-serif=
+;font-size:8pt;font-style:normal;font-variant:normal;font-weight:400;text-d=
+ecoration:none;vertical-align:baseline;white-space:pre-wrap"><a href=3D"mai=
+lto:info4@esteistanbul.com" target=3D"_blank">info4@esteistanbul.com</a>=C2=
+=A0=C2=A0</span><strong style=3D"background-color:transparent;color:rgb(44,=
+50,102);font-family:montserrat,sans-serif;font-size:8pt;font-style:normal;f=
+ont-variant:normal;font-weight:700;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap">M:</strong><span style=3D"background-color:trans=
+parent;color:rgb(44,50,102);font-family:montserrat,sans-serif;font-size:8pt=
+;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap"> </span><span style=3D"backg=
+round-color:transparent;color:rgb(0,0,0);font-family:montserrat,sans-serif;=
+font-size:8pt;font-style:normal;font-variant:normal;font-weight:400;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap">+90 532 4117238=
+ | </span><strong style=3D"background-color:transparent;color:rgb(44,50,102=
+);font-family:montserrat,sans-serif;font-size:8pt;font-style:normal;font-va=
+riant:normal;font-weight:700;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap">M:</strong><strong style=3D"background-color:transpare=
+nt;color:rgb(68,114,196);font-family:montserrat,sans-serif;font-size:8pt;fo=
+nt-style:normal;font-variant:normal;font-weight:700;text-decoration:none;ve=
+rtical-align:baseline;white-space:pre-wrap"> </strong><span style=3D"backgr=
+ound-color:transparent;color:rgb(0,0,0);font-family:montserrat,sans-serif;f=
+ont-size:8pt;font-style:normal;font-variant:normal;font-weight:400;text-dec=
+oration:none;vertical-align:baseline;white-space:pre-wrap">+90 (216) 570 66=
+ 66 (15 00)</span></strong></p><p style=3D"line-height:1.38;margin-bottom:0=
+pt;margin-top:0pt"><strong style=3D"font-weight:normal"><span style=3D"back=
+ground-color:transparent;color:rgb(0,0,0);font-family:montserrat,sans-serif=
+;font-size:8pt;font-style:normal;font-variant:normal;font-weight:400;text-d=
+ecoration:none;vertical-align:baseline;white-space:pre-wrap">Ata=C5=9Fehir =
+Memorial Hospital Vedat G=C3=BCnyol Street No. 30 34758 Ata=C5=9Fehir, Ista=
+nbul</span></strong></p><p style=3D"line-height:1.38;margin-bottom:0pt;marg=
+in-top:0pt"><strong style=3D"font-weight:normal"><a href=3D"https://esteist=
+anbul.com/" rel=3D"noopener noreferrer" style=3D"text-decoration:none" targ=
+et=3D"_blank"><u style=3D"background-color:transparent;color:rgb(17,85,204)=
+;font-family:montserrat,sans-serif;font-size:8pt;font-style:normal;font-var=
+iant:normal;font-weight:700;text-decoration:underline;vertical-align:baseli=
+ne;white-space:pre-wrap">www.esteistanbul.com</u></a></strong></p></td></tr=
+></tbody></table></div><div>=C2=A0</div><div>=C2=A0</div><div>=C2=A0</div><=
+div>----------------</div><div>To: <a href=3D"mailto:info4@esteistanbul.com=
+" target=3D"_blank">info4@esteistanbul.com</a> (<a href=3D"mailto:info4@est=
+eistanbul.com" target=3D"_blank">info4@esteistanbul.com</a>);</div><div>Sub=
+ject: Records Request;</div><div>28.02.2026, 05:47, &quot;Nicola McNamee&qu=
+ot; &lt;nic@2real.stream&gt;:</div><blockquote><div><span style=3D"color:rg=
+b(0,0,0);font-size:medium">Hi Eray,<br><br>Can you please provide me my ful=
+l medical records you created and also the medical records you received fro=
+m me or my own hospital/Dr prior to your care. I&#39;m emigrating to the US=
+A and I need these for the immigration process. Make sure to include the EC=
+G/EKG printouts from the cardiologist exams and his diagnoses that I was cl=
+ear of any abnormalities (so I can get health insurance easier in the USA e=
+asier). I really appreciate your help. If I didn&#39;t say it before, pleas=
+e extend our thanks to Dr. Ercan again.</span><div style=3D"color:rgb(0,0,0=
+);text-decoration-style:solid">=C2=A0</div><div style=3D"color:rgb(0,0,0);t=
+ext-decoration-style:solid">Thanks,</div><div style=3D"color:rgb(0,0,0);tex=
+t-decoration-style:solid">Nicola McNamee</div></div></blockquote></blockquo=
+te></div>
+</div></div>
+
+--0000000000002d5f76064beab369--

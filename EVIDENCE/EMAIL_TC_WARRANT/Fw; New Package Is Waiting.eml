@@ -1,0 +1,245 @@
+Delivered-To: brian@2real.stream
+Received: by 2002:a17:907:3d56:b0:b93:48d0:13d9 with SMTP id hl22csp1032011ejc;
+        Sat, 28 Feb 2026 20:18:09 -0800 (PST)
+X-Received: by 2002:a05:690c:60c6:b0:798:34a:52de with SMTP id 00721157ae682-798855e4e07mr79392007b3.51.1772338689616;
+        Sat, 28 Feb 2026 20:18:09 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1772338689; cv=none;
+        d=google.com; s=arc-20240605;
+        b=ATraoYeBXIphhuTi5oDLc3iNEgJ3rFvzKDLL0wutVsvulzy9KKOgJjd4bDYUY1isqn
+         qMfNDQ7chKTufYPivxjdadAIvicStkKa3oymweanE7cwYdnW0NGOkpb44snEAKWpDfU/
+         aU7Czko/N4u2nyrADhrhklaMQYPoUljd6gdqNcOUXOWjz6hzJYZLGGD0x3PMVcfP/D8i
+         3i9nmg/IB3PRlTjnp9Ptae8bxfhsz/hxr1IYJNaJ6zaa/AlEGG2O+Jkm88eo6xQrpPBZ
+         i2pailm20RMVBV7JwkkLJk8zqg24gXtuZG0EGJNUxMIq1V7qKbc19m5oUSNJexw2l8bz
+         fBgQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:feedback-id:references:in-reply-to:message-id:subject
+         :from:to:date:dkim-signature;
+        bh=egFRyWTfWXg3hxNecB3qQREUGTWEOwux7soNj4H5zuQ=;
+        fh=ev4iNWRZf+htIierm/G0ISp0GXxi4Gt8dOClUISj04o=;
+        b=XBE4WYTDnt+KqQ550fbGhRSpQGVIEoK4ywDIA8/XX/CFKPA1rZwgDnag5W+VjpjcbT
+         eLxQacaxNOUrdBrJeiSzMV5jHODl53tnN/5qCl5AcKfWuK6WNW5NzVGA8BqK0mxqfwEl
+         wBoeCf7eNzZ/RAselqTl7c4cxcgXRtGOaYdXKNp3Z41hjwdJXwA7jpQ02OVAlLYKRL35
+         aQ4ujZuFWsC8oMePPWKHcilowa3V9RCqhwj/n4tSWca7d0JMFC5UCcGjPRRMK4g1XKoi
+         s/mMACaA5p8N/eGFBzYHgX2HuRO9V+vf02/tXfzWruQiudEKQg+HlUp0086cJsYXfLWz
+         suwg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@theonlymcs.family header.s=protonmail3 header.b="OWJSHdL/";
+       spf=pass (google.com: domain of n@theonlymcs.family designates 109.224.244.21 as permitted sender) smtp.mailfrom=n@theonlymcs.family;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=theonlymcs.family
+Return-Path: <n@theonlymcs.family>
+Received: from mail-24421.protonmail.ch (mail-24421.protonmail.ch. [109.224.244.21])
+        by mx.google.com with ESMTPS id 00721157ae682-79876d20a74si79429797b3.245.2026.02.28.20.18.08
+        for <brian@2real.stream>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 28 Feb 2026 20:18:09 -0800 (PST)
+Received-SPF: pass (google.com: domain of n@theonlymcs.family designates 109.224.244.21 as permitted sender) client-ip=109.224.244.21;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@theonlymcs.family header.s=protonmail3 header.b="OWJSHdL/";
+       spf=pass (google.com: domain of n@theonlymcs.family designates 109.224.244.21 as permitted sender) smtp.mailfrom=n@theonlymcs.family;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=theonlymcs.family
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=theonlymcs.family;
+	s=protonmail3; t=1772338687; x=1772597887;
+	bh=egFRyWTfWXg3hxNecB3qQREUGTWEOwux7soNj4H5zuQ=;
+	h=Date:To:From:Subject:Message-ID:In-Reply-To:References:
+	 Feedback-ID:From:To:Cc:Date:Subject:Reply-To:Feedback-ID:
+	 Message-ID:BIMI-Selector;
+	b=OWJSHdL/94iZ1S6C17U1sjKLYK5OSERxiZQrqZjDSi2TGMpJm4gJpZxwYJjQVeanU
+	 nBQQvKemZjFT15ejpGuoVSF/lzPBxmLZCZTAt/D6ETET9Asvt8wcgcaqTLYO7LpCRu
+	 /0Yk1xyRswPVS+zq4nhZS3Tz6Wlq/HSidVGxDVoDr6JV7/Ewe8ZEwoI0A8oBj5AlJa
+	 BTsxr+IOH6quhmyqoTCsGSdILI4BUMd+HF3ZUx6/pp8vQbTF0doqTQ9DUOjY8eGo5u
+	 W7QnIjSaPLmVFkBrVlgYI/rll1yqsq9Fp3eUhudeESncm7ia2f2L25yseSHjD4rs9m
+	 GU0EOanmZ3FwQ==
+Date: Sun, 01 Mar 2026 04:18:05 +0000
+To: "brian@2real.stream" <brian@2real.stream>
+From: Nicola McNamee <n@theonlymcs.family>
+Subject: Fw: New Package Is Waiting
+Message-ID: <mhG-qnBzmRqo6YeS2Jik3BF012yOMkFTyLr49sfN3z75DS2b0zv1CGvS0yPGan_N_8YEGn5HVp-rtSWoSMgjd69UwOoc0nRcdylLdyxFdKM=@theonlymcs.family>
+In-Reply-To: <13194.126020515250400528@uk-mta-318.uk.mimecast.lan>
+References: <13194.126020515250400528@uk-mta-318.uk.mimecast.lan>
+Feedback-ID: 170392136:user:proton
+X-Pm-Message-ID: c565ef0cb6bcc8c0119b08bb07ff1a9e120a6e20
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/pgp-signature"; micalg=pgp-sha512; boundary="------42c63c3395e11d9f1a9da736f40e91a78c39181959f5478ef8f637748298cce4"; charset=utf-8
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--------42c63c3395e11d9f1a9da736f40e91a78c39181959f5478ef8f637748298cce4
+Content-Type: multipart/mixed;boundary=---------------------7c5b70cc2bbcbbcf1537f293e6e6bdb5
+
+-----------------------7c5b70cc2bbcbbcf1537f293e6e6bdb5
+Content-Type: multipart/alternative;boundary=---------------------1b416a377eddb8dc4f37016406616844
+
+-----------------------1b416a377eddb8dc4f37016406616844
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;charset=utf-8
+
+
+
+
+------- Forwarded Message -------
+From: Molly Johnston <Molly.Johnston@kims.org.uk>
+Date: On Thursday, February 5th, 2026 at 9:25 AM
+Subject: New Package Is Waiting
+To: n@theonlymcs.family <n@theonlymcs.family>
+
+
+> New Package Notification
+> =
+
+
+> Welcome to KIMS! A new package has been posted for you.
+> =
+
+
+> Subject:=C2=A0Strictly Private and Confidential SAR Request
+> =
+
+
+> You will be required to supply credentials in order to login and access =
+this package. These credentials will be provided to you either by the orig=
+inal sender or by another email notification.
+> =
+
+
+> If site policy requires it, at sign on you will be guided through additi=
+onal steps to secure your account.
+> =
+
+
+> Please use the following URL and your username/password to login and vie=
+w this package. You will also be given the opportunity to compose a secure=
+ reply to this package.
+> =
+
+
+> ( https://secure.kims.org.uk/human.aspx?OrgID=3D3181&Arg12=3Dmessage&Arg=
+06=3D320628201&Arg08=3D75i93j5ojck06564 )
+> =
+
+
+> =
+
+
+> Regards,
+> KIMS Hospital MOVEit Notification Service
+> =
+
+
+> =
+
+
+> KIMS and Kent Institute of Medicine and Surgery are trading names of KIM=
+S Hospital Ltd a company registered in England and Wales. Company number 0=
+7525422. Registered Office: Newnham Court Way, Maidstone ME14 5FT
+> =
+
+
+> Disclaimer: The information in this email and in any attachment(s) is co=
+nfidential. If you are not the named addressee(s) or if you have received =
+this email in error then any distribution, copying or use of this communic=
+ation or the information in it is strictly prohibited. Please notify us im=
+mediately by email at governance@kims.org.uk and then delete the message. =
+While attachments are virus checked, KIMS Hospital does not accept any lia=
+bility in respect of any malware or viruses.
+-----------------------1b416a377eddb8dc4f37016406616844
+Content-Type: multipart/related;boundary=---------------------3fe08b5aa6b20c0065bbc5b75ae30052
+
+-----------------------3fe08b5aa6b20c0065bbc5b75ae30052
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0
+cHg7Ij48YnI+PC9kaXY+CjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJp
+ZjsgZm9udC1zaXplOiAxNHB4OyIgY2xhc3M9InByb3Rvbm1haWxfc2lnbmF0dXJlX2Jsb2NrIHBy
+b3Rvbm1haWxfc2lnbmF0dXJlX2Jsb2NrLWVtcHR5Ij4KICAgIDxkaXYgY2xhc3M9InByb3Rvbm1h
+aWxfc2lnbmF0dXJlX2Jsb2NrLXVzZXIgcHJvdG9ubWFpbF9zaWduYXR1cmVfYmxvY2stZW1wdHki
+PgogICAgICAgIAogICAgICAgICAgICA8L2Rpdj4KICAgIAogICAgICAgICAgICA8ZGl2IGNsYXNz
+PSJwcm90b25tYWlsX3NpZ25hdHVyZV9ibG9jay1wcm90b24gcHJvdG9ubWFpbF9zaWduYXR1cmVf
+YmxvY2stZW1wdHkiPgogICAgICAgIAogICAgICAgICAgICA8L2Rpdj4KPC9kaXY+CjxkaXYgc3R5
+bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxNHB4OyI+PGJy
+PjwvZGl2PjxkaXYgY2xhc3M9InByb3Rvbm1haWxfcXVvdGUiPgogICAgICAgIC0tLS0tLS0gRm9y
+d2FyZGVkIE1lc3NhZ2UgLS0tLS0tLTxicj4KICAgICAgICBGcm9tOiBNb2xseSBKb2huc3RvbiAm
+bHQ7TW9sbHkuSm9obnN0b25Aa2ltcy5vcmcudWsmZ3Q7PGJyPgogICAgICAgIERhdGU6IE9uIFRo
+dXJzZGF5LCBGZWJydWFyeSA1dGgsIDIwMjYgYXQgOToyNSBBTTxicj4KICAgICAgICBTdWJqZWN0
+OiBOZXcgUGFja2FnZSBJcyBXYWl0aW5nPGJyPgogICAgICAgIFRvOiBuQHRoZW9ubHltY3MuZmFt
+aWx5ICZsdDtuQHRoZW9ubHltY3MuZmFtaWx5Jmd0Ozxicj4KICAgICAgICA8YnI+CiAgICAgICAg
+PGJsb2NrcXVvdGUgY2xhc3M9InByb3Rvbm1haWxfcXVvdGUiIHR5cGU9ImNpdGUiPgogICAgICAg
+ICAgICAKCjxkaXYgY2xhc3M9InRleHRiaWciPgpOZXcgUGFja2FnZSBOb3RpZmljYXRpb24KPC9k
+aXY+PGJyPjxkaXYgY2xhc3M9InRleHRzbWFsbCI+CldlbGNvbWUgdG8gS0lNUyEgQSBuZXcgcGFj
+a2FnZSBoYXMgYmVlbiBwb3N0ZWQgZm9yIHlvdS4KPC9kaXY+PGJyPjxkaXYgY2xhc3M9Imxpc3Ry
+b3cyIj48c3BhbiBjbGFzcz0idGV4dHNtYWxsIj48Yj5TdWJqZWN0OjwvYj4mbmJzcDtTdHJpY3Rs
+eSBQcml2YXRlIGFuZCBDb25maWRlbnRpYWwgU0FSIFJlcXVlc3Q8L3NwYW4+PC9kaXY+PGJyPjxk
+aXYgY2xhc3M9InRleHRzbWFsbCI+CllvdSB3aWxsIGJlIHJlcXVpcmVkIHRvIHN1cHBseSBjcmVk
+ZW50aWFscyBpbiBvcmRlciB0byBsb2dpbiBhbmQgYWNjZXNzIHRoaXMgcGFja2FnZS4gVGhlc2Ug
+Y3JlZGVudGlhbHMgd2lsbCBiZSBwcm92aWRlZCB0byB5b3UgZWl0aGVyIGJ5IHRoZSBvcmlnaW5h
+bCBzZW5kZXIgb3IgYnkgYW5vdGhlciBlbWFpbCBub3RpZmljYXRpb24uCjwvZGl2Pjxicj4KSWYg
+c2l0ZSBwb2xpY3kgcmVxdWlyZXMgaXQsIGF0IHNpZ24gb24geW91IHdpbGwgYmUgZ3VpZGVkIHRo
+cm91Z2ggYWRkaXRpb25hbCBzdGVwcyB0byBzZWN1cmUgeW91ciBhY2NvdW50Ljxicj48YnI+PGRp
+diBjbGFzcz0idGV4dHNtYWxsIj4KUGxlYXNlIHVzZSB0aGUgZm9sbG93aW5nIFVSTCBhbmQgeW91
+ciB1c2VybmFtZS9wYXNzd29yZCB0byBsb2dpbiBhbmQgdmlldyB0aGlzIHBhY2thZ2UuIFlvdSB3
+aWxsIGFsc28gYmUgZ2l2ZW4gdGhlIG9wcG9ydHVuaXR5IHRvIGNvbXBvc2UgYSBzZWN1cmUgcmVw
+bHkgdG8gdGhpcyBwYWNrYWdlLjxicj48YnI+PHNwYW4gY2xhc3M9InRleHR0aW55Ij4KKCA8YSBo
+cmVmPSJodHRwczovL3NlY3VyZS5raW1zLm9yZy51ay9odW1hbi5hc3B4P09yZ0lEPTMxODEmYW1w
+O0FyZzEyPW1lc3NhZ2UmYW1wO0FyZzA2PTMyMDYyODIwMSZhbXA7QXJnMDg9NzVpOTNqNW9qY2sw
+NjU2NCIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciBub2ZvbGxvdyBub29wZW5lciI+
+aHR0cHM6Ly9zZWN1cmUua2ltcy5vcmcudWsvaHVtYW4uYXNweD9PcmdJRD0zMTgxJmFtcDtBcmcx
+Mj1tZXNzYWdlJmFtcDtBcmcwNj0zMjA2MjgyMDEmYW1wO0FyZzA4PTc1aTkzajVvamNrMDY1NjQ8
+L2E+ICkKPC9zcGFuPjwvZGl2Pjxicj48YnI+PGRpdiBjbGFzcz0idGV4dHNtYWxsIj4KUmVnYXJk
+cyw8YnI+S0lNUyBIb3NwaXRhbCBNT1ZFaXQgTm90aWZpY2F0aW9uIFNlcnZpY2U8L2Rpdj4KCgo8
+YnI+PGJyPgpLSU1TIGFuZCBLZW50IEluc3RpdHV0ZSBvZiBNZWRpY2luZSBhbmQgU3VyZ2VyeSBh
+cmUgdHJhZGluZyBuYW1lcyBvZiBLSU1TIEhvc3BpdGFsIEx0ZCBhIGNvbXBhbnkgcmVnaXN0ZXJl
+ZCBpbiBFbmdsYW5kIGFuZCBXYWxlcy4gQ29tcGFueSBudW1iZXIgMDc1MjU0MjIuIFJlZ2lzdGVy
+ZWQgT2ZmaWNlOiBOZXduaGFtIENvdXJ0IFdheSwgTWFpZHN0b25lIE1FMTQgNUZUCjxicj48YnI+
+CkRpc2NsYWltZXI6IFRoZSBpbmZvcm1hdGlvbiBpbiB0aGlzIGVtYWlsIGFuZCBpbiBhbnkgYXR0
+YWNobWVudChzKSBpcyBjb25maWRlbnRpYWwuIElmIHlvdSBhcmUgbm90IHRoZSBuYW1lZCBhZGRy
+ZXNzZWUocykgb3IgaWYgeW91IGhhdmUgcmVjZWl2ZWQgdGhpcyBlbWFpbCBpbiBlcnJvciB0aGVu
+IGFueSBkaXN0cmlidXRpb24sIGNvcHlpbmcgb3IgdXNlIG9mIHRoaXMgY29tbXVuaWNhdGlvbiBv
+ciB0aGUgaW5mb3JtYXRpb24gaW4gaXQgaXMgc3RyaWN0bHkgcHJvaGliaXRlZC4gUGxlYXNlIG5v
+dGlmeSB1cyBpbW1lZGlhdGVseSBieSBlbWFpbCBhdCBnb3Zlcm5hbmNlQGtpbXMub3JnLnVrIGFu
+ZCB0aGVuIGRlbGV0ZSB0aGUgbWVzc2FnZS4gV2hpbGUgYXR0YWNobWVudHMgYXJlIHZpcnVzIGNo
+ZWNrZWQsIEtJTVMgSG9zcGl0YWwgZG9lcyBub3QgYWNjZXB0IGFueSBsaWFiaWxpdHkgaW4gcmVz
+cGVjdCBvZiBhbnkgbWFsd2FyZSBvciB2aXJ1c2VzLgoKCgoKCgogICAgICAgIDwvYmxvY2txdW90
+ZT48YnI+CiAgICA8L2Rpdj4=
+-----------------------3fe08b5aa6b20c0065bbc5b75ae30052--
+-----------------------1b416a377eddb8dc4f37016406616844--
+-----------------------7c5b70cc2bbcbbcf1537f293e6e6bdb5
+Content-Type: application/pgp-keys; filename="publickey - n@theonlymcs.family - 0x51882EFC.asc"; name="publickey - n@theonlymcs.family - 0x51882EFC.asc"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="publickey - n@theonlymcs.family - 0x51882EFC.asc"; name="publickey - n@theonlymcs.family - 0x51882EFC.asc"
+
+LS0tLS1CRUdJTiBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tCgp4ak1FYVRGci9oWUpLd1lCQkFI
+YVJ3OEJBUWRBVGRSRUxSNEUvcFd3TDBHR09EZUJibncxdlRzai94TDMKZnhWOTJqWnBsZEhOS1c1
+QWRHaGxiMjVzZVcxamN5NW1ZVzFwYkhrZ1BHNUFkR2hsYjI1c2VXMWpjeTVtCllXMXBiSGsrd3NB
+UkJCTVdDZ0NEQllKcE1XditBd3NKQndrUU5yZlZDNGJUS3BwRkZBQUFBQUFBSEFBZwpjMkZzZEVC
+dWIzUmhkR2x2Ym5NdWIzQmxibkJuY0dwekxtOXlaN053dlVIK0NRSUtocTNyay9QL0xScS8Kak42
+QjZWVFZwRGF4YXZ5SWpyUEVBeFVLQ0FRV0FBSUJBaGtCQXBzREFoNEJGaUVFVVlndS9LUzJQZEdJ
+CnY4NmtOcmZWQzRiVEtwb0FBQ0UyQVA0eTdEbjAyb0hQeDlhQ2hVOGlpcGROUkdpME8zOHkvcEpq
+VDJrQwoyUnY3MUFFQW9BdFhSYk1NeHJJK1RiMGRHTmZUUjFiK2MxZUlkcmJMYkl5TW9kVHF0UUxP
+T0FScE1XdisKRWdvckJnRUVBWmRWQVFVQkFRZEExTEd0OWVtWmlCK29IdUdxN3BtS2FZdE5iZCsy
+SGhDQzUrQitWNTVnCjJqTURBUWdId3I0RUdCWUtBSEFGZ21reGEvNEpFRGEzMVF1RzB5cWFSUlFB
+QUFBQUFCd0FJSE5oYkhSQQpibTkwWVhScGIyNXpMbTl3Wlc1d1ozQnFjeTV2Y21kTDBrNkZCQlFD
+bVhpK1Q4Qlc3c2tVMGRlRVNRTloKc3V0MmRleFZuQ2kwbFFLYkRCWWhCRkdJTHZ5a3RqM1JpTC9P
+cERhMzFRdUcweXFhQUFEQTdnRUF0cE0yCm9hMjJjQ1EzZUZUQWZiaGRkeHNWNHM1MG4vWnhtZkdW
+Q2N3di9Pd0EvalpsMU9nMkh4Zy9PMTI3aS9sYgpLOHBkZUNycFUyWUVLQmhtTzJpNFRiVVAKPWpp
+R08KLS0tLS1FTkQgUEdQIFBVQkxJQyBLRVkgQkxPQ0stLS0tLQo=
+-----------------------7c5b70cc2bbcbbcf1537f293e6e6bdb5--
+
+--------42c63c3395e11d9f1a9da736f40e91a78c39181959f5478ef8f637748298cce4
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: ProtonMail
+
+wrsEARYKAG0Fgmmjve4JEDa31QuG0yqaRRQAAAAAABwAIHNhbHRAbm90YXRp
+b25zLm9wZW5wZ3Bqcy5vcmcHtPM5H8WNT43mOFThXQPGXc4wcoPNZEnG1RcD
+Jm/GOBYhBFGILvyktj3RiL/OpDa31QuG0yqaAAAOaAD/aX3TmkDyx+LHFEUz
+mUIBpwIj42P3huMPIOVkWBbJNyUA/36y9KlAjQpGOV6iLY1mRKjyNfJpfkW6
+q5kN1pR2VAsD
+=32DH
+-----END PGP SIGNATURE-----
+
+
+--------42c63c3395e11d9f1a9da736f40e91a78c39181959f5478ef8f637748298cce4--
+

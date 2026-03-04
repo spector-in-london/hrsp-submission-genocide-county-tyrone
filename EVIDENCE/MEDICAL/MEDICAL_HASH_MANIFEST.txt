@@ -1,0 +1,45 @@
+================================================================================
+FORENSIC HASH MANIFEST — CHAIN OF CUSTODY
+================================================================================
+Generated: 2026-02-26T10:55:57Z
+Algorithm: SHA-256
+Evidence Directory: /Users/brianspector/_LITIGATION/EVIDENCE/med_pdfs
+Analyst: Dr. Alistair Blackwood / Brian Spector
+================================================================================
+
+FILE: McNamee, Nicola 147384 Dr Lindsay clinic letter 15 11 22.docx
+  SHA-256:  cc7335511f8d0b37e6f020b032f13f3d80362ea6d3b8257901f7cb9d7bf0e7b9
+  Size:     75,515 bytes (0.07 MB)
+  Modified: 2026-02-05T20:31:40Z
+
+FILE: Nicola McNamee 147384 notepad.pdf
+  SHA-256:  0622fa2cb323fa59241875149d8e6d265b5a578c8e0e59e24ce56a2a2cd4ad7b
+  Size:     81,610 bytes (0.08 MB)
+  Modified: 2026-02-03T18:04:30Z
+
+FILE: Nicola McNamee 147384 part 1.pdf
+  SHA-256:  cde1aa5958679f97368f1a6f2661dc4fced0c89dd76ec9510f42616d7b641e35
+  Size:     6,840,430 bytes (6.52 MB)
+  Modified: 2026-02-04T20:48:02Z
+
+FILE: Nicola McNamee 147384 part 2.pdf
+  SHA-256:  56363d8b0857b54267dbdd98c6455e820ed2e2d523aa84734db3a3ed46ed64d9
+  Size:     43,493,205 bytes (41.48 MB)
+  Modified: 2026-02-04T20:54:36Z
+
+FILE: Nicola McNamee 147384 timeline.pdf
+  SHA-256:  06a3ebed246ae82f027410558085dbd597c74ad5089bbdf4dc475cab1fc0826e
+  Size:     161,428 bytes (0.15 MB)
+  Modified: 2026-02-03T18:04:54Z
+
+FILE: Nicola Mcnamee 147384 form results and lifebox.pdf
+  SHA-256:  d81490ce153329c698a4be271e37a8386bdf8da7ac55de929dfcb514db5d8cf4
+  Size:     1,841,866 bytes (1.76 MB)
+  Modified: 2026-02-03T18:33:56Z
+
+================================================================================
+TOTAL FILES HASHED: 6
+MANIFEST INTEGRITY NOTE: This manifest was generated at the
+point of first analysis. Any subsequent hash comparison against
+these values that fails indicates evidence tampering.
+================================================================================

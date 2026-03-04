@@ -1,0 +1,209 @@
+Delivered-To: brian@2real.stream
+Received: by 2002:a17:907:1c98:b0:b8e:2fdb:5558 with SMTP id nb24csp489338ejc;
+        Tue, 24 Feb 2026 15:41:53 -0800 (PST)
+X-Received: by 2002:a05:690c:e18:b0:796:3d5f:a2c8 with SMTP id 00721157ae682-79828f29874mr133018737b3.21.1771976513657;
+        Tue, 24 Feb 2026 15:41:53 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1771976513; cv=none;
+        d=google.com; s=arc-20240605;
+        b=RIHrIhdli7o5OyCTfQla3qC82DVa4fVKSC2G+bNiEyoxuvmX7qRqOrzrLtzdDDt5FX
+         eIDZPeP3FukxkS4usuMmLZ/x5kHKiHDa/eSjjvdlJimj9i/fk2s08Gc77UR4tP6IBM5c
+         huSxA3vFKGtnFKPMJe48MXuPrgxV+SL9o9ct3B8k4fikXDDJk5+ZRAc+lUCVB2PddLgx
+         f23h0TeHliYRm3cpwkoL3pgiNMpOgSZw6EwZGyCHrDQGuD0G4S+Vi5pVvcB56uIo19MT
+         iwdr1QNUaaUj9ADkfWQ9RLUMWARVEkkgyCKgNJ1vwfvD6dsisik7Wk0W53xY6aPRQSXJ
+         9+YQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:feedback-id:references:in-reply-to:message-id:subject
+         :from:to:date:dkim-signature;
+        bh=KnNfv3fYUrYzsJmJO+uqI1d0AqpBZdc73PYKfAFUmUM=;
+        fh=ev4iNWRZf+htIierm/G0ISp0GXxi4Gt8dOClUISj04o=;
+        b=MBKI14lYvU+N6cfQEMdMG8he4BKoaIQPw5K9xwmM8GE4NngXqBwBki5pfNkMZ9N6WW
+         F/7zkCVWqCpHXp7sMTQD/1E79hV5IRr5qUG2A/lE2nTckvV+sVWGltaMrVAu/yf5c7l2
+         HQObrX0JdoDlYUIeyldMJXf/p0/RdFKBc4ma5JR+JHvBFw97jQawHAOal/ZLegwVCrrr
+         OoAS4gEWfym6ttXMJFfBuy3DYYWGd0wchruD7AktDANq5SWCLcMReLb/5IgrwlmUgu30
+         WQGWImNV/wJtKlESdLSeRO3wxFcZY1GBeXHVepIrMugdnMXrdjoLRqVkhqepXZl2nRNr
+         bkNg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@theonlymcs.family header.s=protonmail3 header.b=CyiRBo22;
+       spf=pass (google.com: domain of n@theonlymcs.family designates 109.224.244.22 as permitted sender) smtp.mailfrom=n@theonlymcs.family;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=theonlymcs.family
+Return-Path: <n@theonlymcs.family>
+Received: from mail-24422.protonmail.ch (mail-24422.protonmail.ch. [109.224.244.22])
+        by mx.google.com with ESMTPS id 00721157ae682-79858802c3esi34806687b3.252.2026.02.24.15.41.53
+        for <brian@2real.stream>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 24 Feb 2026 15:41:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of n@theonlymcs.family designates 109.224.244.22 as permitted sender) client-ip=109.224.244.22;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@theonlymcs.family header.s=protonmail3 header.b=CyiRBo22;
+       spf=pass (google.com: domain of n@theonlymcs.family designates 109.224.244.22 as permitted sender) smtp.mailfrom=n@theonlymcs.family;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=theonlymcs.family
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=theonlymcs.family;
+	s=protonmail3; t=1771976511; x=1772235711;
+	bh=KnNfv3fYUrYzsJmJO+uqI1d0AqpBZdc73PYKfAFUmUM=;
+	h=Date:To:From:Subject:Message-ID:In-Reply-To:References:
+	 Feedback-ID:From:To:Cc:Date:Subject:Reply-To:Feedback-ID:
+	 Message-ID:BIMI-Selector;
+	b=CyiRBo22UtxI4egq/krEskyPWFk3xSyeCw9lPN4lG9umXQJ/I4MUTz+Nxbg5L6JXt
+	 yoJBrfGyAFgvkjPGfQHAxzNa4sxeEehiTTXH0MWAF+r3KjzqtZMBsINghDE/3NJS/w
+	 p2J4S+jX2MQrs7yCyUORknlBGH5UTDQqyc6rQV8AF0/3Ai0SSaQ8jR5C9dr4K+ftkd
+	 doteLa6GAxInfbgL4/Nx3O8M8tmKI0kR6ULzfvtl0tZI8TpGsr/A4SwySyngkX/wak
+	 LdUFZst1l/n8PBoKjDcxZWc+9vmC0+8VYnBDusIfM4A0T7fQbWyYYPIa59cQfdiSVP
+	 2wFL81CG65Kbw==
+Date: Tue, 24 Feb 2026 23:41:49 +0000
+To: "brian@2real.stream" <brian@2real.stream>
+From: Nicola McNamee <n@theonlymcs.family>
+Subject: Fw: MEDICAL RECORDS | Full file requested
+Message-ID: <LU292XrV75OhSJ54uBbBmP3cldcg_KsGXuMIsosXGi2VF7is8D3yNARDk1ZNJ7JiOf-_0JQXbm9jDbWPg-w9pXOBWNZjZLkMD805g5-Abi0=@theonlymcs.family>
+In-Reply-To: <SHwN9a9XeCYRJ_FiEK-luHwHp-OPHu4RuGrhXYxA6WgkMvJtj6_Nzkf8PSu_gZ9pEeVYSDGQDzgM9Etk-ZdaEPydVKRWg7Wv7SeJsbFY4pY=@theonlymcs.family>
+References: <SHwN9a9XeCYRJ_FiEK-luHwHp-OPHu4RuGrhXYxA6WgkMvJtj6_Nzkf8PSu_gZ9pEeVYSDGQDzgM9Etk-ZdaEPydVKRWg7Wv7SeJsbFY4pY=@theonlymcs.family>
+Feedback-ID: 170392136:user:proton
+X-Pm-Message-ID: 6d74da6d09be5cfb7ed9a2a4613810cfcd8a7c70
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/pgp-signature"; micalg=pgp-sha512; boundary="------a9a60f26ddc752d88063b7558e206d8b6db499a71658f22a180c52fda7d7cccf"; charset=utf-8
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--------a9a60f26ddc752d88063b7558e206d8b6db499a71658f22a180c52fda7d7cccf
+Content-Type: multipart/mixed;boundary=---------------------ed5aca3d58a61f764cb6c0180ea44414
+
+-----------------------ed5aca3d58a61f764cb6c0180ea44414
+Content-Type: multipart/alternative;boundary=---------------------2a3d03d12bbe737fcd50ec33c9db8304
+
+-----------------------2a3d03d12bbe737fcd50ec33c9db8304
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;charset=utf-8
+
+
+
+
+------- Forwarded Message -------
+From: Nicola McNamee <n@theonlymcs.family>
+Date: On Friday, January 16th, 2026 at 8:50 AM
+Subject: MEDICAL RECORDS | Full file requested
+To: informationgovernance@kims.org.uk <informationgovernance@kims.org.uk>
+
+
+> Hi Kims,
+> =
+
+
+> As an existing patient at Kim's I want to thank you and miss cheang in p=
+articular for your excellent care.
+> =
+
+
+> The billing department have confirmed all outstanding bills have been pa=
+id.
+> =
+
+
+> I kindly ask for you to share my full medical file at haste, it is requi=
+red for an expedited immigration process and if there is a charge for this=
+ please do let me know.
+> =
+
+
+> Safe receipt and acknowledgement of this email would also be greatly app=
+reciated.
+> =
+
+
+> Kind regards,
+> Nicola McNamee 13/01/1988
+-----------------------2a3d03d12bbe737fcd50ec33c9db8304
+Content-Type: multipart/related;boundary=---------------------978eff307c220d1357f2edda445db3a5
+
+-----------------------978eff307c220d1357f2edda445db3a5
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0
+cHg7Ij48YnI+PC9kaXY+CjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJp
+ZjsgZm9udC1zaXplOiAxNHB4OyIgY2xhc3M9InByb3Rvbm1haWxfc2lnbmF0dXJlX2Jsb2NrIHBy
+b3Rvbm1haWxfc2lnbmF0dXJlX2Jsb2NrLWVtcHR5Ij4KICAgIDxkaXYgY2xhc3M9InByb3Rvbm1h
+aWxfc2lnbmF0dXJlX2Jsb2NrLXVzZXIgcHJvdG9ubWFpbF9zaWduYXR1cmVfYmxvY2stZW1wdHki
+PgogICAgICAgIAogICAgICAgICAgICA8L2Rpdj4KICAgIAogICAgICAgICAgICA8ZGl2IGNsYXNz
+PSJwcm90b25tYWlsX3NpZ25hdHVyZV9ibG9jay1wcm90b24gcHJvdG9ubWFpbF9zaWduYXR1cmVf
+YmxvY2stZW1wdHkiPgogICAgICAgIAogICAgICAgICAgICA8L2Rpdj4KPC9kaXY+CjxkaXYgc3R5
+bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxNHB4OyI+PGJy
+PjwvZGl2PjxkaXYgY2xhc3M9InByb3Rvbm1haWxfcXVvdGUiPgogICAgICAgIC0tLS0tLS0gRm9y
+d2FyZGVkIE1lc3NhZ2UgLS0tLS0tLTxicj4KICAgICAgICBGcm9tOiBOaWNvbGEgTWNOYW1lZSAm
+bHQ7bkB0aGVvbmx5bWNzLmZhbWlseSZndDs8YnI+CiAgICAgICAgRGF0ZTogT24gRnJpZGF5LCBK
+YW51YXJ5IDE2dGgsIDIwMjYgYXQgODo1MCBBTTxicj4KICAgICAgICBTdWJqZWN0OiBNRURJQ0FM
+IFJFQ09SRFMgfCBGdWxsIGZpbGUgcmVxdWVzdGVkPGJyPgogICAgICAgIFRvOiBpbmZvcm1hdGlv
+bmdvdmVybmFuY2VAa2ltcy5vcmcudWsgJmx0O2luZm9ybWF0aW9uZ292ZXJuYW5jZUBraW1zLm9y
+Zy51ayZndDs8YnI+CiAgICAgICAgPGJyPgogICAgICAgIDxibG9ja3F1b3RlIGNsYXNzPSJwcm90
+b25tYWlsX3F1b3RlIiB0eXBlPSJjaXRlIj4KICAgICAgICAgICAgPGRpdiBzdHlsZT0iZm9udC1m
+YW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0cHg7Ij5IaSBLaW1zLDwvZGl2
+PjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAx
+NHB4OyI+PGJyPjwvZGl2PjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJp
+ZjsgZm9udC1zaXplOiAxNHB4OyI+QXMgYW4gZXhpc3RpbmcgcGF0aWVudCBhdCBLaW0ncyBJIHdh
+bnQgdG8gdGhhbmsgeW91IGFuZCBtaXNzIGNoZWFuZyBpbiBwYXJ0aWN1bGFyIGZvciB5b3VyIGV4
+Y2VsbGVudCBjYXJlLjwvZGl2PjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1z
+ZXJpZjsgZm9udC1zaXplOiAxNHB4OyI+PGJyPjwvZGl2PjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5
+OiBBcmlhbCwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxNHB4OyI+VGhlIGJpbGxpbmcgZGVwYXJ0
+bWVudCBoYXZlIGNvbmZpcm1lZCBhbGwgb3V0c3RhbmRpbmcgYmlsbHMgaGF2ZSBiZWVuIHBhaWQu
+PC9kaXY+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOyBmb250LXNp
+emU6IDE0cHg7Ij48YnI+PC9kaXY+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5z
+LXNlcmlmOyBmb250LXNpemU6IDE0cHg7Ij5JIGtpbmRseSBhc2sgZm9yIHlvdSB0byBzaGFyZSBt
+eSBmdWxsIG1lZGljYWwgZmlsZSBhdCBoYXN0ZSwgaXQgaXMgcmVxdWlyZWQgZm9yIGFuIGV4cGVk
+aXRlZCBpbW1pZ3JhdGlvbiBwcm9jZXNzIGFuZCBpZiB0aGVyZSBpcyBhIGNoYXJnZSBmb3IgdGhp
+cyBwbGVhc2UgZG8gbGV0IG1lIGtub3cuPC9kaXY+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFy
+aWFsLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0cHg7Ij48YnI+PC9kaXY+PGRpdiBzdHlsZT0i
+Zm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0cHg7Ij5TYWZlIHJl
+Y2VpcHQgYW5kIGFja25vd2xlZGdlbWVudCBvZiB0aGlzIGVtYWlsIHdvdWxkIGFsc28gYmUgZ3Jl
+YXRseSBhcHByZWNpYXRlZC48L2Rpdj48ZGl2IHN0eWxlPSJmb250LWZhbWlseTogQXJpYWwsIHNh
+bnMtc2VyaWY7IGZvbnQtc2l6ZTogMTRweDsiPjxicj48L2Rpdj48ZGl2IHN0eWxlPSJmb250LWZh
+bWlseTogQXJpYWwsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTRweDsiPktpbmQgcmVnYXJkcyw8
+L2Rpdj48ZGl2IHN0eWxlPSJmb250LWZhbWlseTogQXJpYWwsIHNhbnMtc2VyaWY7IGZvbnQtc2l6
+ZTogMTRweDsiPk5pY29sYSBNY05hbWVlIDEzLzAxLzE5ODg8L2Rpdj4KPGRpdiBzdHlsZT0iZm9u
+dC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0cHg7IiBjbGFzcz0icHJv
+dG9ubWFpbF9zaWduYXR1cmVfYmxvY2sgcHJvdG9ubWFpbF9zaWduYXR1cmVfYmxvY2stZW1wdHki
+PgogICAgPGRpdiBjbGFzcz0icHJvdG9ubWFpbF9zaWduYXR1cmVfYmxvY2stdXNlciBwcm90b25t
+YWlsX3NpZ25hdHVyZV9ibG9jay1lbXB0eSI+PC9kaXY+CgogICAgICAgICAgICA8ZGl2IGNsYXNz
+PSJwcm90b25tYWlsX3NpZ25hdHVyZV9ibG9jay1wcm90b24gcHJvdG9ubWFpbF9zaWduYXR1cmVf
+YmxvY2stZW1wdHkiPgoKICAgICAgICAgICAgPC9kaXY+CjwvZGl2PgoKICAgICAgICA8L2Jsb2Nr
+cXVvdGU+PGJyPgogICAgPC9kaXY+
+-----------------------978eff307c220d1357f2edda445db3a5--
+-----------------------2a3d03d12bbe737fcd50ec33c9db8304--
+-----------------------ed5aca3d58a61f764cb6c0180ea44414
+Content-Type: application/pgp-keys; filename="publickey - n@theonlymcs.family - 0x51882EFC.asc"; name="publickey - n@theonlymcs.family - 0x51882EFC.asc"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="publickey - n@theonlymcs.family - 0x51882EFC.asc"; name="publickey - n@theonlymcs.family - 0x51882EFC.asc"
+
+LS0tLS1CRUdJTiBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tCgp4ak1FYVRGci9oWUpLd1lCQkFI
+YVJ3OEJBUWRBVGRSRUxSNEUvcFd3TDBHR09EZUJibncxdlRzai94TDMKZnhWOTJqWnBsZEhOS1c1
+QWRHaGxiMjVzZVcxamN5NW1ZVzFwYkhrZ1BHNUFkR2hsYjI1c2VXMWpjeTVtCllXMXBiSGsrd3NB
+UkJCTVdDZ0NEQllKcE1XditBd3NKQndrUU5yZlZDNGJUS3BwRkZBQUFBQUFBSEFBZwpjMkZzZEVC
+dWIzUmhkR2x2Ym5NdWIzQmxibkJuY0dwekxtOXlaN053dlVIK0NRSUtocTNyay9QL0xScS8Kak42
+QjZWVFZwRGF4YXZ5SWpyUEVBeFVLQ0FRV0FBSUJBaGtCQXBzREFoNEJGaUVFVVlndS9LUzJQZEdJ
+CnY4NmtOcmZWQzRiVEtwb0FBQ0UyQVA0eTdEbjAyb0hQeDlhQ2hVOGlpcGROUkdpME8zOHkvcEpq
+VDJrQwoyUnY3MUFFQW9BdFhSYk1NeHJJK1RiMGRHTmZUUjFiK2MxZUlkcmJMYkl5TW9kVHF0UUxP
+T0FScE1XdisKRWdvckJnRUVBWmRWQVFVQkFRZEExTEd0OWVtWmlCK29IdUdxN3BtS2FZdE5iZCsy
+SGhDQzUrQitWNTVnCjJqTURBUWdId3I0RUdCWUtBSEFGZ21reGEvNEpFRGEzMVF1RzB5cWFSUlFB
+QUFBQUFCd0FJSE5oYkhSQQpibTkwWVhScGIyNXpMbTl3Wlc1d1ozQnFjeTV2Y21kTDBrNkZCQlFD
+bVhpK1Q4Qlc3c2tVMGRlRVNRTloKc3V0MmRleFZuQ2kwbFFLYkRCWWhCRkdJTHZ5a3RqM1JpTC9P
+cERhMzFRdUcweXFhQUFEQTdnRUF0cE0yCm9hMjJjQ1EzZUZUQWZiaGRkeHNWNHM1MG4vWnhtZkdW
+Q2N3di9Pd0EvalpsMU9nMkh4Zy9PMTI3aS9sYgpLOHBkZUNycFUyWUVLQmhtTzJpNFRiVVAKPWpp
+R08KLS0tLS1FTkQgUEdQIFBVQkxJQyBLRVkgQkxPQ0stLS0tLQo=
+-----------------------ed5aca3d58a61f764cb6c0180ea44414--
+
+--------a9a60f26ddc752d88063b7558e206d8b6db499a71658f22a180c52fda7d7cccf
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: ProtonMail
+
+wrsEARYKAG0FgmmeNy4JEDa31QuG0yqaRRQAAAAAABwAIHNhbHRAbm90YXRp
+b25zLm9wZW5wZ3Bqcy5vcmdfVuur+ReXoxoScy9+tntSwnHxarky+VjmrsHY
+gMFyeBYhBFGILvyktj3RiL/OpDa31QuG0yqaAADfoAD/fxPqaJmrwYg9h5Ka
+0k7TuHavPxCnLGbbjwxA+94keT4BAJ4mMcZzS+Nr0ImYxmxWq/U4iTlh3ptX
+cfStEk33RZUO
+=vhqT
+-----END PGP SIGNATURE-----
+
+
+--------a9a60f26ddc752d88063b7558e206d8b6db499a71658f22a180c52fda7d7cccf--
+

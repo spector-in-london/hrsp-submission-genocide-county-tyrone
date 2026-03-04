@@ -1,0 +1,67 @@
+# SHA-256 Manifest: Memorial Hospital Records Request Email
+# Generated: 2026-02-28
+# Analyst: Rachel Chen, Digital Forensics Analyst, Blackwood Ops
+# Source: Email forwarded by Nicola McNamee (nic@2real.stream) to Brian Spector (brian@2real.stream)
+# Original sender: Eray Baris Karacaoglu, Patient Relations, Este Istanbul / Memorial Ataşehir Hospital
+# Original sender email: info4@esteistanbul.com
+# File: /Users/brianspector/_LITIGATION/codex_work/hrsp_material/eml/Fwd; Records Request.eml
+# File size: 1,601,070 bytes (1.5 MB)
+
+bddd087ff704b57fc2081f1261514b2aaeec9a5d931a8ef3d19e88a152a3678e  Fwd; Records Request.eml
+
+# Email Chain:
+#
+# 1. OUTGOING — Nicola McNamee → Eray Baris Karacaoglu
+#    Date: 28 February 2026, 05:47 (Turkey time)
+#    Subject: Records Request
+#    Content: Requests "full medical records you created and also the medical
+#    records you received from me or my own hospital/Dr prior to your care."
+#    SPECIFICALLY REQUESTS: "the ECG/EKG printouts from the cardiologist exams
+#    and his diagnoses that I was clear of any abnormalities"
+#
+# 2. REPLY — Eray Baris Karacaoglu → Nicola McNamee
+#    Date: 28 February 2026, 15:07 (Turkey time)
+#    Subject: Re: Records Request
+#    Content: "Please find all the documents that I can find in the attachment.
+#    For your information, medical report exists in Turkish only."
+#    "I'll share your message to Dr. Ercan."
+#
+# 3. FORWARDED — Nicola McNamee → Brian Spector
+#    Date: 28 February 2026, 18:45 CST / 16:45 PST
+#    Subject: Fwd: Records Request
+#
+# Attachments Enclosed (4 files — all PDFs, no ECGs):
+#   1. Nicola McNamee Medical Report.pdf (Turkish surgical discharge)
+#   2. Nicola McNamee Echocardiagram Report.pdf (11 Dec 2023 echo)
+#   3. Nicola McNamee Cardiologist Approval.pdf (Adhya clearance letter)
+#   4. Nicola McNamee  MRI Report.pdf (4 Dec 2023 breast MRI)
+#
+# DKIM Authentication: PASS (d=2real.stream, s=google)
+# SPF Authentication: PASS (domain of nic@2real.stream)
+# DMARC Authentication: PASS (p=REJECT)
+# ARC Authentication: PASS (i=1, i=2)
+#
+# Evidentiary Significance:
+#
+# 1. CONFIRMS MEMORIAL RECEIVED ONLY THE ADHYA LETTER
+#    The Cardiologist Approval (Adhya letter) was returned as an attachment,
+#    proving it was the ONLY referral document in Memorial's possession.
+#    Memorial never received any KIMS ECGs showing infarction findings.
+#
+# 2. NICOLA SPECIFICALLY REQUESTED ECGs — NONE WERE RETURNED
+#    Nicola asked for "the ECG/EKG printouts from the cardiologist exams."
+#    Eray responded with "all the documents that I can find" — zero ECGs.
+#    Memorial had no ECGs to return because they never performed one and
+#    never received one from UK referral sources.
+#
+# 3. ECHO ORDERED WITHOUT ECG BASIS
+#    The Adhya letter discusses channelopathy (LQTS/Brugada) — conditions
+#    diagnosed by ECG, not echocardiogram. Yet Memorial ordered an echo
+#    (structural cardiac assessment) rather than an ECG (electrical assessment).
+#    This is clinically inconsistent with the referral letter's content.
+#
+# 4. INFORMATION ASYMMETRY ESTABLISHED
+#    Brian and Nicola did not obtain KIMS medical records until early 2026.
+#    The Istanbul surgery was in December 2023. The Turkish team's decision
+#    to order an echocardiogram was made without knowledge of the KIMS ECG
+#    findings (right atrial enlargement, anterior infarction, lateral infarction).
