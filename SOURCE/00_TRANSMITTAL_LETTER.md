@@ -6,7 +6,7 @@
 
 **FROM:** Brian Spector, U.S. Citizen
 
-**DATE:** 1 March 2026
+**DATE:** 5 March 2026
 
 **RE:** Genocide (18 U.S.C. § 1091) and Torture (18 U.S.C. § 2340): Irish Catholic Population, County Tyrone, Northern Ireland; Attempted Murder of Complainant Witness
 
@@ -22,7 +22,7 @@ The evidence confirms genocide under 18 U.S.C. § 1091 (systematic targeting of 
 
 **This submission also exposes a premeditated attempted murder.**
 
-My fiancee, **Nicola McNamee**, is a 38-year-old Irish Catholic woman from **Greencastle, County Tyrone**, the community directly above the gold deposit. In late 2023, she sought a cardiac clearance letter for elective surgery in Istanbul, the first time she had sought medical care outside the UK. Beyond the control of the UK's intelligence apparatus, the Turkish medical system would make it known to Nicola her diagnoses were fraudulent. This would invite scrutiny, risking exposure of the entire covert operation. The solution is obvious: murder Nicola and exploit the fraudulent cardiac diagnoses on file.
+My fiancée, **Nicola McNamee**, is a 38-year-old Irish Catholic woman from **Greencastle, County Tyrone**, the community directly above the gold deposit. In late 2023, she sought a cardiac clearance letter for elective surgery in Istanbul, the first time she had sought medical care outside the UK. Beyond the control of the UK's intelligence apparatus, the Turkish medical system would make it known to Nicola her diagnoses were fraudulent. This would invite scrutiny, risking exposure of the entire covert operation. The solution is obvious: murder Nicola and exploit the fraudulent cardiac diagnoses on file.
 
 KIMS Hospital (Maidstone, Kent) manufactured a medical file designed to explain her death under general anesthesia: fabricated consultations, fabricated ECGs planting progressive ischemic heart disease across three dates over months, and doctored timelines designed to limit liability when she died on the operating table. But Dr. Adhya of KIMS issued Nicola a clearance letter referencing her original Belfast diagnoses (Long QT and Brugada, received in 2012), not the fabricated tale of progressive heart disease now sitting in the KIMS file. His letter stated the November 2023 ECG found no evidence of Brugada and borderline Long QT. Cleared for surgery, he advised anesthesiologists in Istanbul to avoid IV drugs fatal to Long QT patients, just in case.
 
@@ -30,11 +30,11 @@ Nicola traveled to Istanbul with this clearance letter. She had no idea how clos
 
 She changed surgeons at the last minute. Her new doctor, Dr. Ercan Karacaoglu (Brown University fellowships, ASPS member, former head of surgery at Turkey's premier naval hospital, 100+ peer-reviewed publications), ordered an independent echocardiogram at Memorial Hospital Istanbul. Not an ECG, which is what you would expect for an electrical condition. A structural test. The result: a structurally perfect heart, ejection fraction 65%, no evidence of disease in any region. That report obliterated the KIMS fabrication of progressive ischemic heart disease and removed the plausible explanation for death on the operating table.
 
-Then Dr. Ercan went further. He administered Ondansetron during surgery, a drug specifically contraindicated for Long QT patients. If she had Long QT, Ondansetron could be fatal. It is the exact drug Dr. Adhya advised Istanbul to avoid. Four hours of general anesthesia. Zero cardiac events. That did not just expose the KIMS fabrication. It exposed the original Belfast diagnoses. Long QT is fake. Brugada is fake. The entire diagnostic history from the Belfast ICC in 2012 on is fabricated.
+Then Dr. Karacaoglu went further. He administered Ondansetron during surgery, a drug specifically contraindicated for Long QT patients. If she had Long QT, Ondansetron could be fatal. It is the exact drug Dr. Adhya advised Istanbul to avoid. Four hours of general anesthesia. Zero cardiac events. That did not just expose the KIMS fabrication. It exposed the original Belfast diagnoses. Long QT is fake. Brugada is fake. The entire diagnostic history from the Belfast ICC in 2012 on is fabricated.
 
-There was no reason for Dr. Ercan to order an echocardiogram. Nicola did not know the fraudulent records existed inside KIMS, so she could not have sent them to him. Memorial Hospital confirmed this weekend that the only document on file from KIMS was the clearance letter Nicola gave them herself. The questions HRSP needs to ask Dr. Ercan: what made him order the test that exposed the murder plan, and why did he reject Dr. Adhya's guidance?
+There was no reason for Dr. Karacaoglu to order an echocardiogram. Nicola did not know the fraudulent records existed inside KIMS, so she could not have sent them to him. Memorial Hospital confirmed this weekend that the only document on file from KIMS was the clearance letter Nicola gave them herself. The questions HRSP needs to ask Dr. Karacaoglu: what made him order the test that exposed the murder plan, and why did he reject Dr. Adhya's guidance?
 
-The full forensic analysis is Document 04.
+The full forensic analysis is in the enclosed Medical Infrastructure chapter (Document 04) and its Pharmacological Kill Mechanism addendum (Document 04-A).
 
 ---
 
@@ -58,7 +58,7 @@ The surveillance mechanism is the US-UK CLOUD Act bilateral data access agreemen
 
 The same Technical Capability Notice architecture that enabled the email fabrication also enables impersonation. Write access to our email accounts means UK operatives can send emails from our accounts to any recipient, and those emails pass every authentication check because they originate from the genuine account. Over the past two years, we have encountered multiple instances where third parties produced emails or writings firmly attributed to us that neither of us authored. Our digital identities have been turned against us to manufacture disinformation, destroy our credibility with the people and institutions we need to believe us, and poison every channel we use to report. We also have reason to believe criminal content has been planted in accounts on our Microsoft tenant. Any content attributed to either of us since late 2023 must be treated as potentially fabricated until verified through Microsoft's server-side logs under US legal process.
 
-HRSP should assume that the UK government is aware of this submission, is monitoring the complainants' communications with this Department, and has the technical capability to fabricate communications purporting to come from either complainant. Document 10, Actions 17 and 18 request immediate disclosure of active CLOUD Act orders and a review of dual nationality compliance.
+HRSP should assume that the UK government is aware of this submission, is monitoring the complainants' communications with this Department, and has the technical capability to fabricate communications purporting to come from either complainant. The Requested Actions chapter (Document 10), Actions 17 and 18, requests immediate disclosure of active CLOUD Act orders and a review of dual nationality compliance.
 
 ---
 
@@ -66,11 +66,11 @@ HRSP should assume that the UK government is aware of this submission, is monito
 
 Senator Ted Cruz (R-TX) is the pathway to the DOJ's HRSP. This matter falls within the jurisdiction of three of his Senate committees: Commerce (Chairman), Judiciary, and Foreign Relations. Senator Cruz's S.799 (U.S. Legal Gold and Mining Partnership Act) targets the nexus between illicit mineral extraction and human rights violations.
 
-For transparency, an EEA referral was submitted to the FBI through its Office of Congressional Affairs by Congressman Cloud (TX-27) and confirmed directed for processing on February 13, 2026. That referral and this HRSP submission share overlapping perpetrators and the same institutional protection architecture. For avoidance of doubt, Senator Ted Cruz has my permission to contact federal agencies and is the only legislative official I approve to liaise with federal agencies on this matter, as of March 2, 2026. He is the only legislative official in receipt of this submission.
+For transparency, an EEA referral was submitted to the FBI through its Office of Congressional Affairs by Congressman Cloud (TX-27) and confirmed directed for processing on February 13, 2026. That referral and this HRSP submission share overlapping perpetrators and the same institutional protection architecture. For avoidance of doubt, Senator Ted Cruz has my permission to contact federal agencies and is the only legislative official I approve to liaise with federal agencies on this matter, as of March 5, 2026. He is the only legislative official in receipt of this submission.
 
-The enclosed package contains 11 documents (00-10) with an indexed, SHA-256 verified evidence package available on request. Document 10 details the full set of requested investigative and protective actions.
+The enclosed package contains 13 sections (00 through 10, plus addenda 04-A and 06-A). The full submission package with embedded forensic images (ECG tracings, echocardiogram report, genetic ancestry maps) is available at [https://github.com/spector-in-london/hrsp-submission-genocide-county-tyrone](https://github.com/spector-in-london/hrsp-submission-genocide-county-tyrone). The enclosed document is text-only for transmission purposes; the full evidence package is available on request. The Requested Actions chapter (Document 10) details the full set of 19 investigative actions and 5 protective measures.
 
-I am prepared to testify, produce all evidence with chain-of-custody documentation, and travel to any U.S. jurisdiction as is my fiancee Nicola McNamee.
+I am prepared to testify, produce all evidence with chain-of-custody documentation, and travel to any U.S. jurisdiction as is my fiancée Nicola McNamee.
 
 ---
 

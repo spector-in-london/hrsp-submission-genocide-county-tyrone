@@ -2,7 +2,9 @@
 
 ## The State Capability Question
 
-The medical infrastructure documented in Part 1 (04) and the concealment architecture documented in Part 2 (05) are not consistent with ordinary medical malpractice or administrative negligence. The three-layer obfuscation of medical records, metadata stripping, text layer removal, ECG data flattened to raster images, reflects technical capability inconsistent with a hospital IT department and consistent with intelligence-grade document manipulation.
+The medical infrastructure documented in Part 1 (04) and the concealment architecture documented in Part 2 (05) are not consistent with ordinary medical malpractice or administrative negligence. The fabrication of consultations, ECGs, and clinical letters, coordinated across multiple institutions and supported by server-side email modification (documented in the Digital Forensics Addendum, Document 06-A), reflects operational capability inconsistent with a hospital acting alone.
+
+A note on the KIMS medical records PDF: the digital properties of the file (no searchable text, no metadata, raster-only ECGs) may result from the scanning of paper records rather than deliberate obfuscation. If the clinical records existed primarily as paper documents and were scanned into PDF by the Medical Records Administrator, these properties are natural scanning artifacts. Whether the records were paper or digital is a question for investigation. The fabrication of the content (the ECGs, the consultations, the clinical letters) stands independently of how the file was digitized.
 
 The question is not whether the state had the capability. The question is whether the institutional architecture existed to deploy that capability through healthcare infrastructure. The answer is documented.
 
@@ -30,9 +32,9 @@ This architecture was designed for counterterrorism. But it creates the institut
 
 Keir Starmer, now Prime Minister of the United Kingdom, served as a **human rights adviser to the Northern Ireland Policing Board** from 2003 to 2008. This period overlaps with every critical event in the construction of the intelligence architecture and the onset of the genocide:
 
-- The **Tellus geological survey** began in 2004, confirming the scale of the Curraghinalt gold deposit (Document 09)
+- The **Tellus geological survey** began in 2004, confirming the scale of the Curraghinalt gold deposit (Convergence Timeline, Document 09)
 
-- The **earliest documented false cardiac diagnoses** targeting County Tyrone began in 2004 (Document 04)
+- The **earliest documented false cardiac diagnoses** targeting County Tyrone began in 2004 (Medical Infrastructure, Document 04)
 
 - The **Special Reconnaissance Regiment (SRR) was formed on 6 April 2005**, reorganizing 14 Intelligence Company into a military surveillance unit operating under MI5 direction in Northern Ireland
 
@@ -42,7 +44,7 @@ Keir Starmer, now Prime Minister of the United Kingdom, served as a **human righ
 
 Starmer's role as human rights adviser to the Policing Board was to identify and flag human rights risks in the policing and intelligence architecture. The SRR formation (2005) and Annex E (2006) created a parallel military/intelligence structure with what the Committee on the Administration of Justice described as "minimal or non-existent" accountability. Did Starmer flag these accountability gaps? If he did, the reports are on record and should be produced. If he did not, that failure, given his specific advisory mandate, requires explanation.
 
-Starmer subsequently appointed Peter Mandelson as UK Ambassador to the United States (2025), despite Mandelson's known Epstein connections and mineral lobbying history. Jeremy Corbyn stated in the House of Commons on 4 February 2026 that Starmer "would have known of Mandelson's record of an interesting relationship with global dealers in minerals." Full profile in Document 07.
+Starmer subsequently appointed Peter Mandelson as UK Ambassador to the United States (2025), despite Mandelson's known Epstein connections and mineral lobbying history. Jeremy Corbyn stated in the House of Commons on 4 February 2026 that Starmer "would have known of Mandelson's record of an interesting relationship with global dealers in minerals." Full profile in the Perpetrator Profiles chapter (Document 07).
 
 ---
 
@@ -58,7 +60,11 @@ Spector discovered this tampering using AI-powered digital forensic tools he had
 
 - **Data flattened to raster images**, conversion of structured data (including ECG readouts) into static images, destroying the underlying data and preventing machine analysis
 
-These are the **identical techniques** found in Nicola McNamee's tampered medical records from KIMS Hospital (documented in Part 2, 04B). The same three-layer obfuscation, metadata stripping, text layer removal, data flattened to raster, appears in both the litigation evidence bundles and the medical records. This is not a coincidence of method. It is a signature. The technical sophistication required to execute this across multiple document types, institutions, and jurisdictions is not consistent with a private actor. It is consistent with state-sponsored or state-conducted document manipulation.
+The litigation evidence bundles are electronic documents submitted to the Chancery Court through the CE-FILE system. These are not scanned paper. They are digital files that have been deliberately stripped of metadata and text layers before submission. This is confirmed deliberate obfuscation of court evidence.
+
+Nicola McNamee's KIMS Hospital medical records (documented in the Medical Infrastructure chapter, Document 04) share the same digital properties: no metadata, no text layers, raster-only images. However, the KIMS file may have originated as paper records scanned by the Medical Records Administrator (see Perpetrator Profiles, Document 07, Profile 6). Whether the KIMS records were deliberately obfuscated or simply scanned from paper is a question for investigation. The fabrication of the clinical content (ECGs, consultations, letters) is established independently of how the file was digitized.
+
+The deliberate obfuscation in the litigation evidence bundles, combined with the server-side email modification documented in the Digital Forensics Addendum (Document 06-A), establishes state-level document manipulation capability. The KIMS records may or may not reflect the same deliberate technique, but the fabrication of their content is proven regardless.
 
 Spector made three emergency evidence-based applications to the Chancery Court to safeguard data within the UK Judiciary's CE-FILE system after discovering the tampering. He then reported the forensic evidence to every relevant UK agency. Every agency refused to act:
 
@@ -228,7 +234,7 @@ The intelligence architecture operates through eight interlocking components, ea
 | **Uniform agency refusal** | Coordinated institutional protection preventing domestic investigation of technically documented forensic evidence | Correspondence with MI5, NCA, NCSC, Action Fraud, Kent Police |
 | **Official Secrets Act** | Legal shield preventing domestic courts from examining intelligence operations or CMP designations | UK statutory framework |
 | **IRGC surveillance** | Foreign intelligence services monitoring complainants' engagement with U.S. law enforcement on U.S. soil | FBI report (October 2025) |
-| **Active device surveillance** | Complainant witness's mobile phone compromised with state-grade spyware; psychiatric and medical intelligence collected remotely | iPhone forensic analysis (May 2023); Document 08 |
+| **Active device surveillance** | Complainant witness's mobile phone compromised with state-grade spyware; psychiatric and medical intelligence collected remotely | iPhone forensic analysis (May 2023); Victim Documentation, Document 08 |
 | **TC Note three-part weapon** | Evidence fabrication (planted medical docs), real-time surveillance (CLOUD Act), impersonation and reputation destruction (emails sent from victims' accounts) | Forensic analysis; third-party witness accounts; CLOUD Act bilateral agreement |
 | **CLOUD Act dual nationality violation** | UK likely classified dual US/UK citizen as non-US to bypass agreement's US person protections; ongoing surveillance of complainant's communications with US law enforcement | CLOUD Act bilateral agreement (2022); Brian Spector's dual citizenship documentation |
 
@@ -238,7 +244,7 @@ The architecture describes a state intelligence apparatus that:
 
 1. Has the legal authority to operate through healthcare infrastructure (Annex E)
 
-2. Has the technical capability to manipulate medical records, and has used the identical techniques in litigation documents (three-layer obfuscation)
+2. Has the technical capability to manipulate documents (confirmed in litigation evidence bundles) and to modify email at the server level (confirmed in the Digital Forensics Addendum, Document 06-A)
 
 3. Has the legal mechanism to shield its operations from judicial scrutiny (Official Secrets Act + CMP)
 
@@ -274,9 +280,9 @@ The drey.fi Office 365 tenant (used by both complainants) operates without per-m
 | **DKIM** | Cryptographically signs each message | **Not configured** |
 | **DMARC** | Rejects/quarantines failed authentication | **Not configured** |
 
-All 31 drey.fi internal emails from November 2023 lack DKIM signatures. The planted emails documented in Document 04 (fabricated cardiac documents deposited with empty subjects and empty bodies) are forensically indistinguishable from items injected directly into the mailbox by an O365 tenant administrator or any authenticated principal with EWS or Graph API access.
+All 31 drey.fi internal emails from November 2023 lack DKIM signatures. The planted emails documented in the Medical Infrastructure chapter (Document 04) (fabricated cardiac documents deposited with empty subjects and empty bodies) are forensically indistinguishable from items injected directly into the mailbox by an O365 tenant administrator or any authenticated principal with EWS or Graph API access.
 
-**This is not technical incompetence.** The complainant witness's fiance configures full DKIM/DMARC/SPF authentication for multiple separate domains in the same AWS account. A third-party Exchange Online tenant (`sinclairsoffshore.com`) on the same UK infrastructure partition has active DKIM signing. Platform limitation is eliminated as an explanation.
+**This is not technical incompetence.** The complainant witness's fiancé configures full DKIM/DMARC/SPF authentication for multiple separate domains in the same AWS account. A third-party Exchange Online tenant (`sinclairsoffshore.com`) on the same UK infrastructure partition has active DKIM signing. Platform limitation is eliminated as an explanation.
 
 ### Government-Directed Modification Under the Investigatory Powers Act 2016
 
@@ -294,7 +300,7 @@ This submission suggests such a notice was served. It identifies a forensic anom
 
 ### Active Counter-Intelligence: Device Compromise and Operational Timing
 
-The fabrication chain documented in Document 04 was supported by device-level surveillance that tracked both complainants' activities in real time.
+The fabrication chain documented in the Medical Infrastructure chapter (Document 04) was supported by device-level surveillance that tracked both complainants' activities in real time.
 
 **Pegasus deployment against Nicola McNamee's mobile device.** During the operational window between Nicola's request for the KIMS referral letter and the Istanbul procedures (late November 2023), her mobile phone was compromised with Pegasus spyware. The fake images of Dr Adhya's details that appeared on her phone on 10 May 2023 (images she did not take) were planted via the compromised device. The phone screenshots were created from her device and then matched to entries uploaded to the KIMS records system by staff member Katy Fitzpatrick on 22 June 2023, constructing apparent patient provenance for fabricated documents. Pegasus is a state-level surveillance tool sold exclusively to government agencies.
 
@@ -302,10 +308,10 @@ The fabrication chain documented in Document 04 was supported by device-level su
 
 **Spearphishing during records recovery (February 2026).** In the same week that Nicola was forwarding KIMS Subject Access Request responses and requesting her Memorial Hospital records (the exact activity that would expose the fabrication by enabling comparison between the fabricated KIMS file and the genuine Memorial records), a spearphishing attack was directed at Brian Spector. An email from `kafinhausaharuna@gmail.com`, using the display name "Nicola McNamee," requested that Mr. Spector share his WhatsApp number for "important instructions that require your immediate attention." The email passed DKIM authentication for Gmail (it was sent from a real Gmail account, not a spoofed header). The deception was in the display name, designed to move communication to an unmonitored channel during the critical evidence-gathering period. Someone knew they were comparing records and attempted to intervene.
 
-**The records were not supposed to be obtained.** The fabricated KIMS file was designed to survive discovery within the UK legal and regulatory system, where the institutional infrastructure documented in Document 05 could manage the outcome. It was not designed to survive comparison with records from Memorial Hospital Istanbul, a hospital outside UK jurisdiction and outside the control of the actors described in this submission.
+**The records were not supposed to be obtained.** The fabricated KIMS file was designed to survive discovery within the UK legal and regulatory system, where the institutional infrastructure documented in the Cover-Up Infrastructure chapter (Document 05) could manage the outcome. It was not designed to survive comparison with records from Memorial Hospital Istanbul, a hospital outside UK jurisdiction and outside the control of the actors described in this submission.
 
 ---
 
-*Prepared for HRSP submission package, Brian Spector, 1 March 2026*
+*Prepared for HRSP submission package, Brian Spector, 5 March 2026*
 
 *SENSITIVE, NOT FOR PUBLIC DISTRIBUTION*

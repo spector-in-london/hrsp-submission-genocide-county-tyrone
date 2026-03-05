@@ -1,6 +1,6 @@
 # 04: INSTITUTIONAL ANALYSIS: MEDICAL INFRASTRUCTURE
 
-**Version 6.0, 1 March 2026**
+**Version 6.0, 5 March 2026**
 
 ---
 
@@ -16,7 +16,7 @@ The moment Nicola stepped outside the institutional architecture that had diagno
 
 They could not stop her from going to Istanbul. So they built a file designed to explain her death.
 
-A timeline containing all content contained within the medical file is in document 04 Addendum Section 2. Fabricated consultations, fabricated ECGs planting progressive ischemic heart disease across three dates over months, and doctored timelines designed to limit liability when she died on the operating table. Every invented element serves a specific narrative function in the post-mortem story.
+A timeline containing all content contained within the medical file is in the Pharmacological Kill Mechanism addendum (Document 04-A), Section 2. Fabricated consultations, fabricated ECGs planting progressive ischemic heart disease across three dates over months, and doctored timelines designed to limit liability when she died on the operating table. Every invented element serves a specific narrative function in the post-mortem story.
 
 ### The Screenplay
 
@@ -32,7 +32,7 @@ The letter concludes: *"I do hope you found this evening's consultation helpful.
 
 **The fabricated echocardiogram recommendation.** The KIMS file contains a recommendation for a transthoracic echocardiogram, the one test that would definitively contradict the fabricated infarction findings by showing a structurally normal heart. No echocardiogram was ever scheduled. No appointment was ever made. The recommendation exists in the file as a liability shield, a line in the screenplay that says: *we recommended further testing, but the patient did not follow through.* When the pathologist reads the file, the story is: *we tried to help her. She didn't come back. If she had, we might have caught the ischemic heart disease that killed her.*
 
-**The three-layer obfuscation.** The fabricated findings were visible in a PDF whose text layers had been stripped from 116 of 140 pages, whose 2,050 embedded objects had been systematically purged of metadata, and whose ECG data had been flattened to raster images. The infarction findings are printed on the tracings, visible to a human being who turns to those pages, but invisible to every text search, every AI system, every automated legal or insurance review tool. The findings were designed to survive in the file undetected during the patient's lifetime, discoverable only afterwards, by a pathologist examining paper records at post-mortem.
+**The hidden findings.** The fabricated findings exist in a PDF with no searchable text across 116 of 140 pages, no metadata on any of the 2,050 embedded objects, and ECG data flattened to raster images. The infarction findings are printed on the tracings, visible to a human being who turns to those pages, but invisible to every text search, every AI system, every automated legal or insurance review tool. Whether these properties are the result of deliberate obfuscation or the natural consequence of scanning paper records that were never in the digital system is a question for investigation (see the detailed analysis in the Digital Properties section below). Regardless of cause, the effect is that the fabricated findings would survive undetected during the patient's lifetime, discoverable only by a pathologist examining the file at post-mortem.
 
 **The planted email trail.** The fabricated consultation letter was deposited in Nicola's own Office 365 sent items, three emails across two dates, all following an identical anomalous pattern: no subject line, no body text, just cardiac fabrication documents attached. Genuine emails from the same dates have subjects, body text, and recognizable forwarding context. The planted emails ensure that when Nicola's archives are produced in any proceeding, she looks like the source of the fabrication, not its victim.
 
@@ -48,7 +48,7 @@ Nicola was originally scheduled for surgery at the **Dr. Cem Berkay Sinaci Clini
 
 At the Sinaci clinic, something clinically extraordinary occurred: **the anesthetist refused to meet Nicola for a pre-operative consultation.** For a patient carrying diagnoses of both Brugada Syndrome and Long QT Syndrome, conditions that make general anesthesia a high-risk procedure requiring specialized cardiac monitoring, restricted drug protocols, and immediate access to defibrillation, the refusal of an anesthetist to conduct a pre-operative assessment is not negligence. It is the removal of the single pre-operative step most likely to identify that the cardiac diagnoses were fabricated or required independent assessment. Instead of an anesthesia consultation, Ms. McNamee was directed to obtain a mammogram. The clinic's liaison representative, Ena Radoncic, facilitated communications throughout this period but could not arrange the anesthetist meeting.
 
-Nicola arranged a list minute switch of surgeon to **Dr. Ercan Karacaoglu** of Este Istanbul, operating at Memorial Hospital. Surgery was rescheduled for **12 December 2023**.
+Nicola arranged a last minute switch of surgeon to **Dr. Ercan Karacaoglu** of Este Istanbul, operating at Memorial Hospital. Surgery was rescheduled for **12 December 2023**.
 
 Dr. Karacaoglu's credentials are directly relevant to his evidentiary value:
 
@@ -86,7 +86,7 @@ By ordering the echocardiogram, Dr. Karacaoglu's team accomplished two things: t
 
 The Turkish surgical team administered Ondansetron, a QT-prolonging anti-emetic on Dr. Adhya's own drug avoidance list, classified by CredibleMeds.org as carrying a "Known Risk of Torsades de Pointes," the lethal arrhythmia that LQTS patients are specifically vulnerable to. They gave a woman diagnosed with Long QT Syndrome the drug most likely to kill her. Nothing happened.
 
-Memorial never received the fraudulent ECGs from KIMS. Why did they carry out an echocardiogram showcasing her healthy heart? What did they know?
+Memorial never received the fraudulent ECGs from KIMS. Why did they carry out an echocardiogram that proved her heart was healthy? What did they know?
 
 Four hours of general anesthesia. No cardiac event. No arrhythmia. No QT-related episode. No emergency intervention. Discharged in stable condition on 14 December 2023.
 
@@ -212,7 +212,19 @@ The anesthetic team then overrode the cardiologist's drug safety recommendation 
 
 ### The Fabricated ECGs: Detailed Forensic Analysis
 
-Five ECGs are embedded across pages 46–50 of the KIMS PDF. Because the entire 57-page file contains zero extractable text, the machine-printed clinical findings on these tracings cannot be found by any text-based search. Although all of the ECGs are fraudulent, Nicola recalls undergoing one ECG during her November 2023 appointment:
+Five ECGs are embedded across pages 46–50 of the KIMS PDF. Because the entire 57-page file contains zero extractable text, the machine-printed clinical findings on these tracings cannot be found by any text-based search. Four of the five ECGs contain fabricated infarction findings. The fifth (21 June 2023) reads "Normal ECG" and may be the only tracing with legitimate provenance. Nicola recalls undergoing one ECG during her November 2023 appointment. The five tracings are reproduced below.
+
+INSERT ECG_PAGE046.png label: Page 46: ECG dated 21 September 2023. No documented consultation. Orphan tracing with no CompuCare booking. Machine reads "Anterior infarct, age undetermined." Raster-only image, white background, no QR code.
+
+INSERT ECG_PAGE047.png label: Page 47: ECG dated 9 May 2023. Second tracing from the fabricated consultation. Machine reads "Anterior infarct, age undetermined, Abnormal ECG." Raster-only image, white background, no QR code.
+
+INSERT ECG_PAGE048.png label: Page 48: ECG dated 21 June 2023 (pre-assessment clinic). Machine reads "Normal sinus rhythm, Normal ECG." Pink grid paper, QR code, direct machine output. This is the only ECG whose provenance may be legitimate, and the only one showing a normal heart.
+
+INSERT ECG_PAGE049.png label: Page 49: ECG dated 21 November 2023. First of two tracings 72 seconds apart. Machine reads "Cannot rule out Anterior infarct, age undetermined" and "No significant change was found."
+
+INSERT ECG_PAGE050.png label: Page 50: ECG dated 21 November 2023, recorded 72 seconds after page 49. Machine reads "Possible Lateral Infarct, Serial changes of evolving Lateral infarct present." Mutually exclusive with the preceding tracing. Real ECG machines do not contradict themselves in 72 seconds.
+
+The visual contrast between the tracings is striking. ECG #3 (page 48) is printed on pink grid paper with a QR code and direct machine formatting. The four fabricated ECGs (pages 46, 47, 49, 50) are raster-only images on white backgrounds with no QR codes, consistent with images inserted into the record rather than printed by an ECG machine connected to a patient.
 
 | Date / Time | BPM | QTcB (ms) | Machine Interpretation | Patient Recalls? |
 |---|---|---|---|---|
@@ -241,17 +253,19 @@ The May 2023 figure is critical. The ECG machines produced four QTcB values: 366
 
 **The architectural silence.** Dr Adhya's clinic letters discuss only QT interval duration and Brugada pattern. The infarct findings, planted across four of five ECGs, are not acknowledged, discussed, investigated, or dismissed anywhere in the clinical narrative. They were never meant to be acted upon. They were meant to be found at post-mortem.
 
-### Three-Layer Obfuscation Architecture
+### Digital Properties of the KIMS PDF
 
-| Layer | Method | Effect |
-|---|---|---|
-| **Metadata** | Stripped from all 2,050 embedded objects | Removes timestamps, device identifiers, operator information, prevents forensic tracing |
-| **Text** | Text layers removed across 116 of 140 pages | Prevents text search, copy/paste, or automated legal analysis |
-| **Image** | ECG data flattened to raster images | Machine-flagged cardiac abnormalities become invisible to any digital analysis |
+The KIMS medical records file (`part 2.pdf`) has three properties that render its clinical findings invisible to automated analysis. Whether these properties result from deliberate obfuscation or from the scanning of paper records is a question for investigation.
 
-The PDF wrapper names "Anna Makarova" as author, confirmed via KIMS Zendesk ticket #90837 as the **Medical Records Administrator** at KIMS Hospital. The file was created via "Microsoft: Print To PDF," not a clinical system. The metadata stripping was applied to the payload (2,050 embedded images) but not to the container (the PDF wrapper), wiping fingerprints off the weapon but leaving them on the door handle.
+| Property | Description | Effect | If Paper Scan |
+|---|---|---|---|
+| **No metadata** | All 2,050 embedded objects lack timestamps, device identifiers, operator information | Prevents forensic tracing | Normal: scanners do not embed per-page metadata |
+| **No text layers** | 116 of 140 pages contain zero searchable text | Prevents text search, copy/paste, or automated legal analysis | Normal: a scanner produces images, not text, unless OCR is applied |
+| **Raster ECGs** | ECG data exists only as flat images | Machine-flagged cardiac abnormalities invisible to any digital analysis | Normal: a scanned ECG printout is a photograph of paper |
 
-The obfuscation serves a dual purpose. First, it prevents the fabricated infarct findings from being discovered through automated analysis during the patient's lifetime. Second, it prevents forensic comparison of the ECG tracings against clinical databases that could identify the fabrication. A text-searchable ECG tracing can be cross-referenced against machine interpretation standards; a flattened raster image cannot.
+The PDF wrapper names "Anna Makarova" as author, confirmed via KIMS Zendesk ticket #90837 as the **Medical Records Administrator** at KIMS Hospital. The file was created via "Microsoft: Print To PDF," not a clinical system. Makarova's role is ambiguous: if the source records were paper, the absence of text layers and metadata is a natural artifact of scanning, not deliberate obfuscation. Makarova also printed the complete patient record including the administrative notepad, the internal document that contradicts the fabricated consultation. If she intended to conceal the fabrication, she would not have included it. Her status (participant or cooperating witness who preserved the paper trail at personal risk) requires investigation. See Perpetrator Profiles (Document 07), Profile 6.
+
+Regardless of how the file was produced, the effect is the same: the fabricated infarct findings cannot be discovered through automated analysis during the patient's lifetime, and the ECG tracings cannot be forensically compared against clinical databases. A text-searchable ECG tracing can be cross-referenced against machine interpretation standards; a flattened raster image cannot. Whether these properties were engineered or are artifacts of scanning paper records that were never in the digital system is a critical investigative question.
 
 ### Systematic Gaps
 
@@ -274,7 +288,7 @@ A medical record does not accidentally fail in every area that would allow indep
 
 ### The Adhya Letter Was Not Created by a Clinical System
 
-The fabricated May consultation letter (, 124,515 bytes) was created using **wkhtmltopdf 0.12.6** with the **Qt 4.8.7** rendering engine, an open-source command-line developer tool for programmatic PDF generation, not a clinical document management system. The November 2023 surgical clearance letter was generated by the identical toolchain. Both originate from a programmatic web portal, not clinical dictation or NHS-standard correspondence.
+The fabricated May consultation letter (124,515 bytes) was created using **wkhtmltopdf 0.12.6** with the **Qt 4.8.7** rendering engine, an open-source command-line developer tool for programmatic PDF generation, not a clinical document management system. The November 2023 surgical clearance letter was generated by the identical toolchain. Both originate from a programmatic web portal, not clinical dictation or NHS-standard correspondence.
 
 The PDF's declared creation timestamp (11 May 2023 20:43:38 UTC) and filename contain a UUID (`84dde236-df0f-4b03-bb59-eac651752dcd`) characteristic of web application document storage.
 
@@ -331,8 +345,8 @@ The digital forensics of the planted emails, including the DKIM/DMARC authentica
 | 7 | Echocardiogram "recommendation" in KIMS file was never scheduled | Confirmed, fabricated liability shield |
 | 8 | QTc value reported for fabricated May consultation does not exist in machine record | Confirmed, 474ms matches no machine output |
 | 9 | 72-second contradictory ECG interpretations are a fabrication signature | Confirmed, mutually exclusive machine findings on same patient |
-| 10 | Three-layer obfuscation conceals fabricated findings from digital analysis | Confirmed, metadata stripped, text removed, ECGs flattened |
-| 11 | Anna Makarova (Medical Records Administrator) identified as PDF author | Confirmed, Zendesk ticket #90837 |
+| 10 | KIMS PDF properties (no metadata, no text layers, raster ECGs) render fabricated findings invisible to digital analysis. Whether deliberate obfuscation or scanning artifacts from paper records requires investigation | Confirmed: properties present. Cause (deliberate vs. scanning) requires investigation |
+| 11 | Anna Makarova (Medical Records Administrator) identified as PDF author. Role ambiguous: may have preserved paper records at personal risk (see Document 07, Profile 6) | Confirmed, Zendesk ticket #90837 |
 | 12 | Ghost anesthetic review, three anesthetists documented, none met patient | Patient testimony, corroborated by blank physical examination |
 | 13 | Propofol override without patient consent | Confirmed, documented in LifeBox internal email chain |
 | 14 | Ondansetron (contraindicated for LQTS) administered in Istanbul, no cardiac event | Confirmed, Memorial Hospital discharge summary |
@@ -350,7 +364,7 @@ The digital forensics of the planted emails, including the DKIM/DMARC authentica
 | 26 | Memorial received ONLY the Adhya clearance letter, no ECGs, no consultation notes | Confirmed, Memorial email evidence |
 | 27 | Information asymmetry by design: clearance letter referenced channelopathy (electrical) but concealed fabricated ischemic findings (structural) | Confirmed, clearance letter content vs. KIMS ECG content |
 
-Intelligence and counter-intelligence findings (items 28-31) are documented in Document 06. Corporate jurisdiction and witness credential findings are documented in Documents 03 and 07. All evidence available on request with SHA-256 verification.
+Intelligence and counter-intelligence findings (items 28-31) are documented in the Intelligence Architecture chapter (Document 06). Corporate jurisdiction and witness credential findings are documented in the US Jurisdictional Nexus chapter (Document 03) and the Perpetrator Profiles chapter (Document 07). All evidence available on request with SHA-256 verification.
 
 ---
 

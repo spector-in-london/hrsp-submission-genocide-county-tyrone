@@ -2,9 +2,9 @@
 
 ## Legal Framing of Systematic Medical Targeting Under Federal Law
 
-**Document 02 of 10**
+**Document 02 of 13**
 
-**Date:** 1 March 2026
+**Date:** 5 March 2026
 
 **Purpose:** To map the evidentiary record onto the statutory elements of 18 U.S.C. §§ 1091–1093 (Genocide), 18 U.S.C. §§ 2340–2340B (Torture), 18 U.S.C. § 2441 (War Crimes), and the immigration persecutor bar provisions of 8 U.S.C. §§ 1182(a)(3)(E) and 1227(a)(4)(D)
 
@@ -16,7 +16,7 @@ This document does not argue that the case is proved. It argues that the evident
 
 The standard at this stage is not proof beyond reasonable doubt. It is not probable cause. It is whether the evidence, taken as a whole, provides a reasonable basis to believe that the conduct described may constitute violations of one or more of these statutes, and that the U.S. has jurisdiction to investigate.
 
-Every statutory element below is addressed against the evidence presented in Documents 03 through 07.
+Every statutory element below is addressed against the evidence presented in the US Jurisdictional Nexus (Document 03), Medical Infrastructure (Documents 04 and 04-A), Concealment Architecture (Document 05), Intelligence Architecture (Documents 06 and 06-A), and Perpetrator Profiles (Document 07).
 
 ---
 
@@ -42,9 +42,9 @@ The affected population is a genetically distinct group, the Irish Catholic comm
 
 - **National/ethnic group:** The Irish Catholic population of County Tyrone constitutes a national and ethnic group, Irish, with a distinct cultural identity, historical continuity, and territorial connection to the land predating the Plantation of Ulster (1609). The Oxford University 2015 *Nature* study confirmed that the Northern Irish population is genetically distinct from the English population, forming a separate genetic cluster. This is not a political classification. It is a biological, cultural, and historical one.
 
-INSERT GREEN_TRIANGLES.jpg label: UK mapped by genetic ancestry (Nature 2015)
+INSERT GREEN_TRIANGLES.png label: UK mapped by genetic ancestry (Nature 2015)
 
-INSERT GREEN_TRIANGLES_CLOSE_UP.jpg label: County Tryrone's distinct genetic markers clustered in pale blue circle
+INSERT GREEN_TRIANGLES_CLOSE_UP.png label: County Tyrone's distinct genetic markers clustered in pale blue circle
 
 - **Religious group:** The affected population is Catholic. In Northern Ireland, Catholic identity is not merely denominational, it is a defining marker of the community's national and ethnic identity, inseparable from its Irish heritage. The Plantation of Ulster explicitly targeted Catholic landholders for dispossession. The targeting pattern identified in this submission falls along the same sectarian line.
 
@@ -56,7 +56,7 @@ Either ground alone satisfies § 1091. Both are present.
 
 **§ 1091(a)(1), Killing members of the group**
 
-The evidence documents a **prima facie attempted murder** of Nicola McNamee (Document 04): a medical file fabricated to explain her death under general anesthesia in Istanbul in December 2023, containing fabricated ECGs planting progressive ischemic heart disease as a pre-written cause of death, a fabricated echocardiogram recommendation never scheduled (a liability shield), and three layers of digital obfuscation concealing the fabrication until post-mortem. An independent echocardiogram at Memorial Hospital Istanbul proved the infarction findings are fabricated: structurally perfect heart, ejection fraction 65%, no wall motion abnormality.
+The evidence documents a **prima facie attempted murder** of Nicola McNamee (Medical Infrastructure, Document 04): a medical file fabricated to explain her death under general anesthesia in Istanbul in December 2023, containing fabricated ECGs planting progressive ischemic heart disease as a pre-written cause of death, a fabricated echocardiogram recommendation never scheduled (a liability shield), and digital properties rendering the fabricated findings invisible to automated analysis (whether by deliberate obfuscation or as artifacts of scanning paper records requires investigation). An independent echocardiogram at Memorial Hospital Istanbul proved the infarction findings are fabricated: structurally perfect heart, ejection fraction 65%, no wall motion abnormality.
 
 Beyond this documented attempt, the evidence shows a mechanism capable of producing undetectable deaths at the population level:
 
@@ -100,7 +100,7 @@ INSERT DALRADIAN_MAP.png label: Boundaries of the Dalradian Gold 'Belt' covering
 
 2. **Duration and persistence:** The campaign has operated continuously from approximately 2004 to the present, two decades. A twenty-year pattern is not an oversight. It is a program.
 
-3. **Institutional investment in concealment:** The five-element cover-up architecture documented in Document 05, autopsy collapse, boundary restructuring, hospital closure, FOI firewalls, and molecular autopsy gap, represents substantial institutional investment in preventing detection. Entities do not invest this level of effort in concealing accidents.
+3. **Institutional investment in concealment:** The five-element cover-up architecture documented in the Concealment Architecture chapter (Document 05), autopsy collapse, boundary restructuring, hospital closure, FOI firewalls, and molecular autopsy gap, represents substantial institutional investment in preventing detection. Entities do not invest this level of effort in concealing accidents.
 
 4. **Financial motive aligned with group destruction:** The Curraghinalt gold deposit (£14-20 billion) can only be developed if community resistance is overcome. The Crown Estate collects a 4% royalty on all gold extracted. The financial motive aligns precisely with the destruction of the community's capacity to resist.
 
@@ -112,7 +112,7 @@ INSERT DALRADIAN_MAP.png label: Boundaries of the Dalradian Gold 'Belt' covering
 
 **Evidence:**
 
-Four independent jurisdictional bases are documented in full in Document 03. The strongest are summarized here:
+Four independent jurisdictional bases are documented in full in the US Jurisdictional Nexus chapter (Document 03). The strongest are summarized here:
 
 - **U.S. corporate financing of the mine:** Orion Mine Finance (New York City), a Delaware-registered private equity firm with $4.5 billion in assets under management, acquired a large equity stake and finances the Curraghinalt gold deposit through Dalradian Resources, a Canadian mine operator in September 2018. Orion's senior executives are based in New York and are present in the United States.
 
@@ -160,7 +160,7 @@ The conduct is carried out through state institutions (NHS), by or at the direct
 
 - **Unnecessary pacemaker implantation**, a permanent surgical device implanted on the basis of a cascaded false diagnosis. The procedure involves general anesthesia, surgical incision, and lead placement into the cardiac chambers. If the diagnosis is fabricated, the entirety of this procedure constitutes severe physical pain inflicted without medical justification.
 
-- **Unnecessary beta blocker administration to children**, The Kendall et al. (2025) study documents 216 children diagnosed through the Belfast ICC program at a median age of 18 months. These children have been continually administered beta blockers, cardiac medications that suppress heart rate and blood pressure. In children who do not have the cardiac conditions for which beta blockers are indicated, chronic administration causes: bradycardia (dangerously low heart rate), hypotension, chronic fatigue, exercise intolerance, sleep disturbance, and documented neurodevelopmental effects including depressive symptoms, cognitive blunting, and behavioural changes. The complainant witness's brother and sister were administered these medications as toddlers and have experienced adverse reactions throughout their course of treatment. If the underlying diagnoses are false, as the evidence in Document 03 supports, then the systematic administration of cardiac drugs to children who do not need them constitutes severe physical suffering imposed through medical authority.
+- **Unnecessary beta blocker administration to children**, The Kendall et al. (2025) study documents 216 children diagnosed through the Belfast ICC program at a median age of 18 months. These children have been continually administered beta blockers, cardiac medications that suppress heart rate and blood pressure. In children who do not have the cardiac conditions for which beta blockers are indicated, chronic administration causes: bradycardia (dangerously low heart rate), hypotension, chronic fatigue, exercise intolerance, sleep disturbance, and documented neurodevelopmental effects including depressive symptoms, cognitive blunting, and behavioral changes. The complainant witness's brother and sister were administered these medications as toddlers and have experienced adverse reactions throughout their course of treatment. If the underlying diagnoses are false, as the evidence in the Medical Infrastructure chapter (Document 04) supports, then the systematic administration of cardiac drugs to children who do not need them constitutes severe physical suffering imposed through medical authority.
 
 - **Propofol administration over patient objection**, the complainant witness's documented drug sensitivity was overridden without her consent during a procedure at KIMS Hospital. Three anesthetists are recorded; the patient met none. The ASA classification was changed from grade 2 to grade 3 between the anesthetic review and the procedure without explanation.
 
@@ -186,7 +186,7 @@ Section 2340(2) defines "severe mental pain or suffering" as the prolonged menta
 
 **Statutory requirement:** The act must be **specifically intended** to inflict severe physical or mental pain or suffering.
 
-The intent analysis parallels the genocide framework. The evidence of concealment, three-layer document obfuscation, absent original records, the deliberate non-performance of genetic testing, demonstrates that the diagnosticians knew the diagnoses were false. One does not invest in sophisticated concealment of legitimate medical practice. The absence of the one test that would confirm or exclude the diagnosis (genetic testing) is the most powerful evidence of intent: it is the test they could not fake.
+The intent analysis parallels the genocide framework. The evidence of concealment, absent original records, the deliberate non-performance of genetic testing, the fabrication of consultations and ECGs, the server-side email modification documented in the Digital Forensics Addendum (Document 06-A), demonstrates that the diagnosticians knew the diagnoses were false. One does not invest in sophisticated concealment of legitimate medical practice. The absence of the one test that would confirm or exclude the diagnosis (genetic testing) is the most powerful evidence of intent: it is the test they could not fake.
 
 **Assessment:** The concealment evidence provides the strongest basis for the intent inference.
 
@@ -202,9 +202,9 @@ The torture statute's jurisdictional reach covers any perpetrator who enters U.S
 
 - **Dalradian Resources executives (Canadian operators of the mine).** Dalradian is the Canadian company that operates the Curraghinalt mine. Its executives have documented U.S. travel and a track record that is directly relevant to the conduct alleged in this submission. Dalradian's CEO **Patrick Anderson** would have traveled routinely to New York for meetings with Orion Mine Finance, the project's financial backer. Dalradian's senior management includes **Brian Kelly** (Managing Director since 2014, previously ran CEMEX's operations in Ireland), **Keith McKay** (CFO, previously CFO at Continental Gold in Colombia where three staff were killed and the project faced massive community resistance over forced displacement of local populations), and **Eric Tremblay** (COO, previously General Manager at Canadian Malartic, Canada's largest open-pit gold mine, subject to class action lawsuits from residents over damage from dust, noise, and explosions). All three also became directors of **Minco PLC**, connected to mining projects worldwide with documented environmental devastation, indigenous displacement, and worker deaths. Board member **Sean Roosen** (Osisko Gold Royalties, $30M+ CAD invested) has extensive U.S. connections. The PSNI invoiced Dalradian approximately £400,000 for escorting the company's explosives, blurring the line between public policing and private security. Dalradian compiled a 92-page surveillance dossier on community leader Cormac McAleer. Any Dalradian executive who entered U.S. soil while participating in an operation that required the systematic targeting of the community opposing the mine is subject to § 2340A jurisdiction. Their operational history at other sites demonstrates a pattern of engagement with environments where community opposition is crushed rather than accommodated.
 
-- **Peter Mandelson.** Appointed UK Ambassador to the United States in 2025. Present on U.S. soil in an official capacity until his arrest on February 23, 2026. Mandelson held three government positions spanning the entire ownership chain of the gold deposit (Document 07). His presence in the United States as Ambassador is an automatic jurisdictional trigger under § 2340A.
+- **Peter Mandelson.** Appointed UK Ambassador to the United States in 2025. Present on U.S. soil in an official capacity until his arrest on February 23, 2026. Mandelson held three government positions spanning the entire ownership chain of the gold deposit (Perpetrator Profiles, Document 07). His presence in the United States as Ambassador is an automatic jurisdictional trigger under § 2340A.
 
-- **UK-based medical perpetrators.** Any physician, administrator, or intelligence operative identified in the Belfast ICC targeting campaign who has traveled to the United States for any purpose (conferences, personal travel, professional exchange) is subject to § 2340A jurisdiction upon entry. HRSP should request CBP entry records for all individuals identified in Document 07.
+- **UK-based medical perpetrators.** Any physician, administrator, or intelligence operative identified in the Belfast ICC targeting campaign who has traveled to the United States for any purpose (conferences, personal travel, professional exchange) is subject to § 2340A jurisdiction upon entry. HRSP should request CBP entry records for all individuals identified in the Perpetrator Profiles chapter (Document 07).
 
 - Immigration consequences under 8 U.S.C. § 1182(a)(3)(E) apply to any identified perpetrator who seeks entry to the United States.
 
@@ -277,7 +277,7 @@ If any identified perpetrator is currently present in the United States, as a vi
 ## V. STATUTORY FRAMEWORK SUMMARY
 
 | Statute | Elements Met | Elements Requiring Development | Threshold |
-|---|---|---|---|---|
+|---|---|---|---|
 | **18 U.S.C. §§ 1091–1093 (Genocide)** | Protected group; serious bodily injury (pacemaker, beta blockers to children); institutional mechanism; jurisdiction (four independent bases) | Specific intent (circumstantial but convergent); killing (mechanism documented, deaths require investigation) | Specific intent to destroy in whole or substantial part |
 | **18 U.S.C. §§ 2340–2340B (Torture)** | Color of law (NHS, MI5, SRR, MoD, CMP); severe physical pain (pacemaker, beta blockers, propofol); severe mental pain (false terminal diagnosis, family cascade); concealment evidence supporting intent | Additional perpetrator identification | Specific intent to inflict severe pain or suffering under color of law |
 | **18 U.S.C. § 2441 (War Crimes)** | Conduct consistent with prohibited acts; state actors identified; wartime architecture preserved post-conflict | Armed conflict threshold | Conduct in context of armed conflict |

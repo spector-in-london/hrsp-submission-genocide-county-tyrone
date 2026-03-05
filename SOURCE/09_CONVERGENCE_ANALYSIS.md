@@ -1,8 +1,8 @@
 # CONVERGENCE ANALYSIS: STATISTICAL, INSTITUTIONAL, AND FINANCIAL
 
-**Document 09 of 10**
+**Document 09 of 13**
 
-**Date:** 1 March 2026
+**Date:** 5 March 2026
 
 **Standard:** DOJ HRSP evidentiary analysis. This document presents the convergence of medical, political, financial, and intelligence events across a 22-year timeline and asks a single question: what are the odds?
 
@@ -202,7 +202,7 @@ The "1 in 20,000" figure is incorrect. Yamakawa et al. screened 20,387 Japanese 
 
 All three errors operate in the same direction: they make the Belfast clinic's diagnostic output appear validated by prior literature when it is not. The institution audited itself, published the audit with a triple-layered methodological failure, and found nothing wrong.
 
-The study covers **only pediatric diagnoses (ages 0-18).** It omits all adult diagnoses and all deaths attributed to these conditions over the same 18-year period. That adult data is held behind the FOI firewall described in Document 05.
+The study covers **only pediatric diagnoses (ages 0-18).** It omits all adult diagnoses and all deaths attributed to these conditions over the same 18-year period. That adult data is held behind the FOI firewall described in the Cover-Up Infrastructure chapter (Document 05).
 
 ### Cardiovascular Death Rates by District
 
@@ -215,7 +215,7 @@ Published NI Executive data (December 2025) shows cardiovascular death rates per
 | NI Average | ~65 |
 | Mid Ulster (East Tyrone) | 60.8 |
 
-The 2015 boundary restructuring split County Tyrone across three districts. This data cannot be disaggregated to show County Tyrone as a single unit. Any geographic clustering that existed at county level before 2015 is now invisible in published statistics (Document 05).
+The 2015 boundary restructuring split County Tyrone across three districts. This data cannot be disaggregated to show County Tyrone as a single unit. Any geographic clustering that existed at county level before 2015 is now invisible in published statistics (Cover-Up Infrastructure, Document 05).
 
 ### The Reverse Cascade: Diagnosing the Dead from the Living
 
@@ -271,6 +271,6 @@ The statistical probability of this convergence occurring by chance is not calcu
 
 ---
 
-*Document 09 of 10. Prepared for HRSP submission package, 1 March 2026.*
+*Document 09 of 13. Prepared for HRSP submission package, 5 March 2026.*
 
 *SENSITIVE: NOT FOR PUBLIC DISTRIBUTION*

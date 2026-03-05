@@ -2,7 +2,7 @@
 
 **Addendum to Section 06: Intelligence Architecture**
 
-**Version 1.0, 2 March 2026**
+**Version 1.0, 5 March 2026**
 
 **Classification: Evidence, Chain of Custody Maintained**
 
@@ -161,8 +161,11 @@ MIME (Multipurpose Internet Mail Extensions) is the standard format for email me
 When software modifies an email through the Graph API (for example, by adding an attachment), Microsoft's Exchange system does the following:
 
 1. Updates the message in its internal database
+
 2. Regenerates the MIME representation of the entire message
+
 3. During regeneration, stamps a new `modification-date` on every MIME part (every attachment)
+
 4. The previous modification-dates are overwritten. They are not preserved in the MIME output.
 
 This is why all five attachments in the Nordesthetics email have the same modification-date: the email was modified through a single API operation, and Exchange regenerated the entire MIME structure, stamping every part with the same timestamp.
@@ -194,9 +197,13 @@ Under UK law (the Investigatory Powers Act 2016, Section 253), the Secretary of 
 In the context of email, a TCN served on Microsoft requires the company to maintain the ability to:
 
 - Read emails in a specified tenant
+
 - Modify emails in a specified tenant (change content, alter attachments)
+
 - Insert new emails into a mailbox (emails the user never sent or received)
+
 - Delete emails from a mailbox
+
 - Provide these capabilities without alerting the tenant administrator or users
 
 ### How a Warrant is Obtained
@@ -226,9 +233,13 @@ Once Microsoft receives a valid warrant backed by an existing TCN, the technical
 The TCN and all warrants issued under it are classified. Microsoft is legally prohibited from disclosing their existence to:
 
 - The target (you)
+
 - Your lawyers
+
 - Any court, including the court hearing your civil litigation
+
 - Any foreign government, including the United States
+
 - The public
 
 If Microsoft refuses to comply or discloses the TCN, the company faces criminal prosecution under UK law. If Microsoft wants to challenge the TCN, it has **28 days** to request a review, and the review process can take up to **180 days**. During that entire period, Microsoft must comply with the notice.
@@ -292,6 +303,7 @@ Content-Disposition: attachment;
 
 **All five attachments share:**
 - Creation dates clustering at 04 Nov 2023 (07:08 for PDFs, 07:14 for photos)
+
 - Modification date: **16 Mar 2024 21:56:26 GMT** (identical across all five)
 
 **Why this is anomalous:**
@@ -301,9 +313,13 @@ In normal email operation, the modification-date of an attachment should equal i
 The only mechanisms that can modify a delivered message's attachments are:
 
 1. Microsoft Graph API with `Mail.ReadWrite` permissions
+
 2. Exchange Web Services (EWS) with impersonation or application permissions
+
 3. Exchange Online PowerShell with administrative access
+
 4. Microsoft's own compliance and eDiscovery infrastructure
+
 5. Direct infrastructure access compelled by a legal instrument
 
 All five of these mechanisms would produce the same forensic artifact: a simultaneous modification-date across all MIME parts when the MIME structure is regenerated.
@@ -389,9 +405,13 @@ Under the IPA, the existence of a TCN is classified. Microsoft is legally prohib
 **This creates a closed loop:**
 
 - The government modifies the email (planting evidence)
+
 - The modification creates a detectable artifact (the modification-date)
+
 - The government modifies the email again (overwriting the artifact)
+
 - Microsoft cannot disclose that either modification occurred
+
 - The account holder sees only the final state of the email, with no history
 
 The only way to break this loop is a **US federal subpoena to Microsoft Corporation**, compelling production of internal audit logs, version history, and records of government access requests, under US legal authority that is not subject to UK classification restrictions.
@@ -477,7 +497,7 @@ The TC Note was obtained to help kill Nicola McNamee.
 
 That is the primary finding. Everything else flows from it.
 
-Before Nicola traveled to Istanbul in December 2023 for elective surgery, someone needed to plant a fabricated cardiology letter in her email. The letter, attributed to Dr. Shaumik Adhya and describing a consultation on 9 May 2023 that never took place, established a false medical narrative: that Nicola had Long QT Syndrome, Brugada Syndrome, and progressive ischemic heart disease. This letter would travel with her to Istanbul. It would be presented to the surgical team. It would shape their anesthetic decisions. And if the operation succeeded, it would explain her death on or after the operating table as a natural cardiac event in a patient with known but inadequately investigated heart disease. (Full analysis in Document 04-A.)
+Before Nicola traveled to Istanbul in December 2023 for elective surgery, someone needed to plant a fabricated cardiology letter in her email. The letter, attributed to Dr. Shaumik Adhya and describing a consultation on 9 May 2023 that never took place, established a false medical narrative: that Nicola had Long QT Syndrome, Brugada Syndrome, and progressive ischemic heart disease. This letter would travel with her to Istanbul. It would be presented to the surgical team. It would shape their anesthetic decisions. And if the operation succeeded, it would explain her death on or after the operating table as a natural cardiac event in a patient with known but inadequately investigated heart disease. (Full analysis in the Pharmacological Kill Mechanism addendum, Document 04-A.)
 
 To plant that letter, the operatives needed write access to the drey.fi email tenant hosted on Microsoft Exchange Online. A normal user cannot add an attachment to an email that has already been sent and delivered. Only someone with server-level access can do that. The Technical Capability Notice, served on Microsoft under Section 253 of the Investigatory Powers Act 2016, provided that access.
 
@@ -514,7 +534,7 @@ The 16 March 2024 modification-date is the timestamp of the most recent modifica
 
 However, the following investigative actions can recover evidence of the earlier modification:
 
-### 7.1Outlook Local Cache (.ost File)
+### 7.1 Outlook Local Cache (.ost File)
 
 Microsoft Outlook stores a local copy of emails in a database file with the extension `.ost`. If Brian Spector opened this email before 16 March 2024 (which is certain, as the email was sent to him on 8 November 2023), his Outlook cache contains the version of the message that existed before the March modification.
 

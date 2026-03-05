@@ -2,11 +2,11 @@
 
 ## Victim-Centered Profiles for Human Rights and Special Prosecutions Section
 
-**Document 08 of 10**
+**Document 08 of 13**
 
 **Prepared by:** Julie Fry, Former DOJ HRSP Consultant
 
-**Date:** 1 March 2026
+**Date:** 5 March 2026
 
 **Standard:** HRSP victim-centered documentation, adapted for living complainant witnesses subjected to systematic medical targeting and foreign intelligence operations
 
@@ -68,11 +68,11 @@ Nicola was referred to a major London teaching hospital. The treating cardiologi
 
 **The 2023 KIMS Hospital Encounter:**
 
-In November 2023, Nicola was seen at KIMS Hospital (Maidstone, Kent) for pre-surgical cardiac assessment. A cardiologist (Dr. Shaumik Adhya) noted the condition was "very faint" and indicated follow-up appointments were unnecessary. The encounter generated medical records that became the subject of forensic analysis (see Document 04, Institutional Analysis).
+In November 2023, Nicola was seen at KIMS Hospital (Maidstone, Kent) for pre-surgical cardiac assessment. A cardiologist (Dr. Shaumik Adhya) noted the condition was "very faint" and indicated follow-up appointments were unnecessary. The encounter generated medical records that became the subject of forensic analysis (see Medical Infrastructure, Document 04).
 
 **The Independent Refutation (January 2024):**
 
-In January 2024, a cardiologist outside the UK examined Nicola and declared the cardiac diagnosis flatly wrong. Her ECG showed no cardiac abnormalities. She subsequently underwent general anaesthesia, which is contraindicated for Long QT Syndrome, without any cardiac incident. If the diagnosis had been real, general anaesthesia carried a significant risk of triggering a lethal cardiac event. Nothing happened.
+In January 2024, a cardiologist outside the UK examined Nicola and declared the cardiac diagnosis flatly wrong. Her ECG showed no cardiac abnormalities. She subsequently underwent general anesthesia, which is contraindicated for Long QT Syndrome, without any cardiac incident. If the diagnosis had been real, general anesthesia carried a significant risk of triggering a lethal cardiac event. Nothing happened.
 
 **The diagnosis that shaped over a decade of Nicola's life, that propagated through her entire family, and that resulted in her mother receiving a permanent surgical implant, was wrong.**
 
@@ -95,9 +95,9 @@ The forensic analysis of Nicola's KIMS Hospital records (Patient ID: 147384) ide
 | 11 | All original diagnostic records absent, no Belfast cardiac unit records, no St George's Hospital records | HIGH |
 | 12 | Genetic testing never performed despite textbook family history requiring it under every relevant clinical guideline | HIGH |
 | 13 | Referenced attachment files not disclosed | MODERATE |
-| 14 | Three-layer forensic obfuscation applied to entire PDF: metadata stripping, text layer removal (116/140 pages), ECG data flattened to raster images | CRITICAL |
+| 14 | KIMS PDF lacks searchable text (116/140 pages), metadata, and contains raster-only ECGs. Properties may result from deliberate obfuscation or from scanning paper records. Effect is identical: fabricated findings invisible to automated analysis | CRITICAL |
 
-**The three-layer obfuscation is independently significant.** The PDF wrapper names "Anna Makarova" as author, a person with no verifiable connection to KIMS Hospital in any public record. The file was created via "Microsoft: Print To PDF," not a clinical system. The obfuscation renders all machine-printed ECG interpretations (including the infarct findings) invisible to any automated legal, insurance, or AI analysis system. A solicitor searching for "infarct" in this PDF gets zero results, despite the word being printed on the tracings.
+**The absence of searchable text is independently significant.** The PDF wrapper names "Anna Makarova" as author, confirmed as the KIMS Medical Records Administrator (Zendesk ticket #90837). The file was created via "Microsoft: Print To PDF." If the source records were paper, the absence of text layers and metadata is a natural artifact of scanning. However, the effect is the same regardless of intent: all machine-printed ECG interpretations (including the infarct findings) are invisible to any automated legal, insurance, or AI analysis system. A solicitor searching for "infarct" in this PDF gets zero results, despite the word being printed on the tracings. Makarova's role (participant or witness who preserved the paper trail) requires investigation (see Perpetrator Profiles, Document 07, Profile 6).
 
 ### Device Forensics: Mobile Phone Compromise (May 2023)
 
@@ -139,7 +139,7 @@ Additionally, forensic analysis identified that an automated script had been use
 
 - Over a decade of living under a false terminal cardiac diagnosis with associated psychological burden, behavioral restrictions, and drug avoidance protocols
 
-- Subjected to general anaesthesia at a hospital where her medical identity was never verified, her physical examination was never performed, and her cardiologist's safety recommendations were overridden without her knowledge or consent
+- Subjected to general anesthesia at a hospital where her medical identity was never verified, her physical examination was never performed, and her cardiologist's safety recommendations were overridden without her knowledge or consent
 
 - Denied genetic testing, the one test that would have definitively resolved the diagnosis, throughout the entire period of care
 
@@ -186,9 +186,11 @@ She is the case where the pattern became visible, because she left the system.
 
 ### Circumstances of Targeting
 
-Mrs. McNamee was the **index case**, the first family member diagnosed. She was diagnosed with Long QT Syndrome at the Belfast cardiac unit (NHS Inherited Cardiac Conditions Service) and **fitted with a permanent pacemaker**, a surgically implanted cardiac device requiring general anaesthesia, surgical incision, lead placement into the heart, and lifelong management including generator replacement every 5–10 years.
+Mrs. McNamee was the **index case**, the first family member diagnosed. She was diagnosed with Long QT Syndrome at the Belfast cardiac unit (NHS Inherited Cardiac Conditions Service) and **fitted with a permanent pacemaker**, a surgically implanted cardiac device requiring general anesthesia, surgical incision, lead placement into the heart, and lifelong management including generator replacement every 5–10 years.
 
-Her diagnosis triggered the cascade family screening mechanism that produced diagnoses in Nicola, her half-brother, and her half-sister. Under NHS protocol, all first-degree relatives of a diagnosed patient are compelled to attend for testing. One diagnosis in Mrs. McNamee produced nine additional diagnoses across four family members.
+Her diagnosis triggered the cascade family screening mechanism that produced diagnoses in Nicola, her half-brother, and her half-sister. Under NHS protocol, all first-degree relatives of a diagnosed patient are compelled to attend for testing. But the diagnoses did not stop with her children. They extended to her brothers and sisters, and from there to their children. Based on Nicola's account, the cascade reached her cousin, all of his children, and his wife. One diagnosis in Mrs. McNamee produced at least nine additional diagnoses that Nicola is personally aware of, and there are likely more.
+
+The cousin's wife is forensically significant. She is not a blood relative of the McNamee family. She is from the opposite side of County Tyrone. She was not diagnosed with a cardiac condition until she married into the family and moved to Greencastle, the community sitting directly above the Curraghinalt gold deposit. A genetic inherited cardiac condition cannot be acquired by moving to a new address. If her diagnosis is genuine, it is an extraordinary coincidence. If it is fabricated, it demonstrates that the targeting mechanism operates by geography and community, not by genetics. Her brother died in his sleep. His death was attributed to the cardiac condition.
 
 ### Harm Suffered
 
@@ -278,7 +280,7 @@ The same as her brother.
 
 ### Circumstances of Targeting
 
-Brian Spector is the primary jurisdictional anchor for this HRSP referral. He is a U.S. citizen whose fiance is the complainant witness at the center of the suspected medical targeting campaign. His targeting occurred through two connected channels: (1) a foreign intelligence operation against their American technology start-up, documented in a separate EEA criminal referral filed with the FBI Counterintelligence Division on 30 January 2026; and (2) the institutional protection and retaliation apparatus that activated when exposed to his partner's fabricated cardiac diagnosis.
+Brian Spector is the primary jurisdictional anchor for this HRSP referral. He is a U.S. citizen whose fiancée is the complainant witness at the center of the suspected medical targeting campaign. His targeting occurred through two connected channels: (1) a foreign intelligence operation against their American technology start-up, documented in a separate EEA criminal referral filed with the FBI Counterintelligence Division on 30 January 2026; and (2) the institutional protection and retaliation apparatus that activated when exposed to his partner's fabricated cardiac diagnosis.
 
 ### 25-Month Escalation Pattern (November 2023 – January 2026)
 
@@ -292,7 +294,7 @@ Brian Spector is the primary jurisdictional anchor for this HRSP referral. He is
 | **UK Agency Refusal** | Jul 2025 | Reports to MI5 (×2), NCA, NCSC, Action Fraud, Kent Police (×4), no agency responded substantively |
 | **IRGC Surveillance on U.S. Soil** | Oct 2025 | Uber driver using IRGC rank designation "SARDAR" conducted surveillance in Washington, D.C., days after FBI meeting at Manassas field office |
 | **False Arrest and Flight** | Dec 2025 | Arrested on false charges; denied U.S. Embassy notification (Vienna Convention violation); Kent Police twice warned couple of MoD attempts to imprison with planted evidence; Nicola and Brian fled UK |
-| **Post-Flight Monitoring** | February 2026 | Spearfishing attempts coincide with KIMS records analysis |
+| **Post-Flight Monitoring** | February 2026 | Spearphishing attempts coincide with KIMS records analysis |
 
 ### Pattern Connection
 
@@ -308,7 +310,7 @@ His value to HRSP is threefold: (1) he is a U.S. citizen, providing direct juris
 
 The six individual profiles above represent the documented cases where independent evidence exists. They are not the full scope of the suspected targeting.
 
-The earliest documented false diagnoses date to approximately **2004**, the same year the UK government's Tellus geological survey began mapping the mineral resources beneath County Tyrone, confirming the scale and value of the Curraghinalt gold deposit. The convergence of these two events is documented in the Convergence Analysis (Document 09).
+The earliest documented false diagnoses date to approximately **2004**, the same year the UK government's Tellus geological survey began mapping the mineral resources beneath County Tyrone, confirming the scale and value of the Curraghinalt gold deposit. The convergence of these two events is documented in the Convergence Timeline (Document 09).
 
 The evidence suggests a broader population of victims:
 
@@ -316,7 +318,7 @@ The evidence suggests a broader population of victims:
 
 - Each child diagnosed through cascade screening represents a family, parents, siblings, who were also screened and potentially diagnosed
 
-- The complainant witness's cousin, whose wife, two children, and wife's cousin (who died in her sleep in her twenties, autopsy attributed to Long QT/Brugada) are all affected, denied in December 2025 that any family member had ever been diagnosed, behavior consistent with coercion
+- The complainant witness's cousin was diagnosed, as were all of his children and his wife. His wife is not a McNamee blood relative. She is from the opposite side of County Tyrone and was diagnosed only after moving to Greencastle. Her brother died in his sleep; the death was attributed to the cardiac condition. In December 2025, the cousin denied via Signal that any family member had ever been diagnosed, contradicting documented medical history. He ended the conversation abruptly. This behavior is consistent with coercion
 
 **The broader community is also under documented attack.** Human rights defenders opposing the Dalradian mine have been subjected to:
 
@@ -336,7 +338,7 @@ The pattern of targeting extends from the medical system (fabricated diagnoses, 
 
 ### What Investigation Would Reveal
 
-HRSP's recommended investigative actions (Document 10) include:
+HRSP's recommended investigative actions (Requested Actions, Document 10) include:
 
 1. **Preservation letters** to Belfast Health and Social Care Trust for all Long QT/Brugada diagnoses of County Tyrone patients, this would establish the actual scope of the affected population
 
@@ -365,7 +367,7 @@ These actions are within HRSP's investigative authority and would transform the 
 
 ## CONCLUSION
 
-Six documented victims. One index diagnosis that triggered cascade screening of an entire family. Four false cardiac diagnoses. One unnecessary pacemaker. Two toddlers administered beta-blockers. One false arrest with Vienna Convention violations. One U.S. citizen minor in a hostile jurisdiction. One family torn across two continents by the conduct described in this submission.
+Six documented victims. One index diagnosis that triggered at least nine cascade diagnoses across an extended family. One unnecessary pacemaker. Two toddlers administered beta-blockers. One non-blood relative diagnosed after moving to Greencastle, whose brother died in his sleep. One false arrest with Vienna Convention violations. One U.S. citizen minor in a hostile jurisdiction. One family torn across two continents by the conduct described in this submission.
 
 These are the cases where the evidence is documented and the witnesses are available. Behind them stands a population, potentially hundreds of County Tyrone families, whose cardiac diagnoses have never been independently reviewed, whose genetic tests have never been ordered, and whose medical records sit behind the same institutional architecture that fabricated Nicola McNamee's diagnosis.
 
@@ -377,4 +379,4 @@ It does.
 
 *Julie Fry*
 *Former DOJ HRSP Consultant*
-*28 February 2026*
+*5 March 2026*

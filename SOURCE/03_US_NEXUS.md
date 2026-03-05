@@ -2,9 +2,9 @@
 
 ## Four Independent Bases for Federal Jurisdiction
 
-**Document 03 of 10**
+**Document 03 of 13**
 
-**Date:** 1 March 2026
+**Date:** 5 March 2026
 
 ---
 
@@ -18,7 +18,7 @@ This document establishes that HRSP possesses federal jurisdiction over the susp
 
 **This is the prosecution pathway. It bypasses UK intelligence interference completely.**
 
-KIMS Hospital (Maidstone, Kent) is where the fabricated medical file was manufactured: the fabricated ECGs, the fabricated consultations, the three-layer digital obfuscation, and complicit staff. This hospital is not an independent UK institution beyond federal reach. It is controlled by a corporate group with a U.S. subsidiary subject to full federal jurisdiction.
+KIMS Hospital (Maidstone, Kent) is where the fabricated medical file was manufactured: the fabricated ECGs, the fabricated consultations, and clinical records whose digital properties (no searchable text, no metadata, raster-only ECGs) render the fabricated findings invisible to automated analysis. This hospital is not an independent UK institution beyond federal reach. It is controlled by a corporate group with a U.S. subsidiary subject to full federal jurisdiction.
 
 ### Corporate Chain
 
@@ -71,7 +71,7 @@ The hospital where the murder weapon was manufactured is controlled by a documen
 
 ## NEXUS 2: U.S. CITIZEN DIRECTLY AFFECTED
 
-**Brian Spector** is a United States citizen. He is the fiance of the primary complainant witness (Nicola McNamee), a direct target of a connected foreign intelligence operation documented in the parallel EEA referral, and a victim of the same institutional apparatus that operates the suspected medical targeting campaign.
+**Brian Spector** is a United States citizen. He is the fiancé of the primary complainant witness (Nicola McNamee), a direct target of a connected foreign intelligence operation documented in the parallel EEA referral, and a victim of the same institutional apparatus that operates the suspected medical targeting campaign.
 
 | Element | Detail |
 |---------|--------|
@@ -104,6 +104,16 @@ If the UK concealed Brian Spector's US citizenship:
 Nicola McNamee, as a UK citizen, has no CLOUD Act protections at all. The UK can surveil her communications on American soil through American companies with zero US oversight.
 
 The CLOUD Act violation is not a historical event. It is an ongoing operation against a US citizen on US soil, conducted through American technology companies, while that citizen attempts to alert American authorities to genocide, attempted murder, and economic espionage against US interests.
+
+### U.S.-Hosted Malware Infrastructure: Particle Ink (Las Vegas, Nevada)
+
+The malware deployed against Nicola McNamee on 15 March 2024 was hosted on servers belonging to **Particle Ink**, a Las Vegas, Nevada company founded by **Cassandra Rosenthal**. The malware loader was captured in an Internet Archive (Wayback Machine) snapshot from approximately 1 March 2024, independently preserving the evidence that the attack infrastructure existed on US servers before the malware was deployed.
+
+Two weeks after that snapshot, Lilia Severina deployed the malware against Nicola on a work call (15 March 2024). One day later, the server-side email modification documented in the Digital Forensics Addendum (Document 06-A) overwrote the pre-murder timestamps in the Nordesthetics email (16 March 2024).
+
+Rosenthal is listed on Severina's defendant's questionnaire (filed October 2024) as a witness who would testify in person that Severina did not misappropriate Brian Spector's intellectual property. Her company hosted the malware. She was prepared to defend the operative who deployed it. Her role (knowing participant or unwitting asset whose infrastructure was exploited) requires investigation. Full profile in the Perpetrator Profiles chapter (Document 07), Profile 11.
+
+Particle Ink is a US company. Its servers, hosting records, and access logs are directly subpoenable by a federal grand jury. The Wayback Machine snapshot is independently preserved by the Internet Archive (San Francisco), a US nonprofit, and is available to investigators without subpoena.
 
 ---
 
@@ -165,6 +175,7 @@ American public money, retirement savings for millions of workers, is invested i
 | 1 | **Lycamobile USA / KIMS Hospital** | Lycamobile USA Inc. (Newark, NJ) | Grand jury subpoena. Entire KIMS evidence chain. No UK cooperation required |
 | 2 | **U.S. citizen victim** | Brian Spector (Texas) | Direct statutory basis, 18 U.S.C. §§ 1091, 2340 |
 | 2A | **CLOUD Act dual nationality violation** | Brian Spector (dual US/UK) | UK likely concealed US citizenship in CLOUD Act warrants. Ongoing surveillance of US citizen on US soil through US companies without US oversight |
+| 2B | **U.S.-hosted malware infrastructure** | Particle Ink (Las Vegas, NV); Cassandra Rosenthal | Malware loader on US servers (Wayback Machine ~1 Mar 2024). Deployed against complainant witness 15 Mar 2024. Rosenthal on Severina's witness list. Directly subpoenable |
 | 3 | **Dalradian operators** | Anderson, Kelly, McKay, Tremblay, Roosen (Canadian, documented US travel) | § 2340A (present in US). CBP records. Pattern of community displacement |
 | 4 | **U.S. pension fund investors** | 10 state pension funds, 9 states | SEC coordination. Investors as victims. Policy urgency |
 
@@ -182,6 +193,6 @@ American investors are victims, not perpetrators. The Department's role is to pr
 
 ---
 
-*Document 03 of 10. Prepared for HRSP submission package, 1 March 2026.*
+*Document 03 of 13. Prepared for HRSP submission package, 5 March 2026.*
 
 *SENSITIVE: NOT FOR PUBLIC DISTRIBUTION*

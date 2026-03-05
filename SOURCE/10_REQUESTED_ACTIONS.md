@@ -2,9 +2,9 @@
 
 ## Investigative Actions and Protective Measures: A Prosecution Pathway That Bypasses UK Interference
 
-**Document 10 of 10**
+**Document 10 of 13**
 
-**Date:** 1 March 2026
+**Date:** 5 March 2026
 
 ---
 
@@ -30,7 +30,7 @@ This document consolidates the investigative actions and protective measures req
 
 - All directives, policies, or communications regarding medical records production, storage, access, or release at KIMS Hospital
 
-- All records relating to Anna Makarova (Medical Records Administrator), including employment records, system access grants, and any communications regarding the complainant witness's patient file
+- All records relating to Anna Makarova (Medical Records Administrator), including employment records, system access grants, and any communications regarding the complainant witness's patient file. Note: Makarova's role is ambiguous; she may be a potential cooperating witness who preserved evidence at personal risk (see Perpetrator Profiles, Document 07, Profile 6)
 
 - Revenue flows from Lycamobile USA through the Lyca Group intercompany network (including Madeira-based IP entities) to LycaHealth
 
@@ -38,7 +38,7 @@ This document consolidates the investigative actions and protective measures req
 
 **Why this is Priority 1:** KIMS Hospital is where the attempted murder weapon was manufactured. Lycamobile USA is the US corporate entity that controls the hospital through the Lyca Group structure. This subpoena opens the entire KIMS evidence chain without UK cooperation, without an MLAT, and without any UK government permission. White & Case LLP (New York) has active litigation against Lycamobile USA for $7.8M in unpaid fees (NY County Supreme Court), confirming US courts already have personal jurisdiction.
 
-**Evidentiary basis:** Document 04 (fabricated medical file forensics); Document 07 (Subaskaran profile); Document 03 (US Nexus, Nexus 5)
+**Evidentiary basis:** Medical Infrastructure (Document 04); Perpetrator Profiles (Document 07, Profile 5: Subaskaran); US Jurisdictional Nexus (Document 03, Nexus 1)
 
 ---
 
@@ -102,6 +102,26 @@ This document consolidates the investigative actions and protective measures req
 
 ---
 
+### Action 5A, Subpoena Particle Ink (Las Vegas, NV)
+
+**Agency:** DOJ Criminal Division (via federal grand jury) / FBI
+
+**Action:** Issue federal grand jury subpoenas to **Particle Ink** (Las Vegas, Nevada; Cassandra Rosenthal, principal) for:
+
+- All server access logs, hosting records, and security logs from 1 January 2024 to present
+
+- All records of third-party access to Particle Ink infrastructure, including remote administration, hosting agreements, and any access provided to Lilia Severina, Kaleidoco Inc., or any associated entity
+
+- All communications between Cassandra Rosenthal and Lilia Severina, including any arrangements related to Rosenthal's appearance as a witness in Spector v. Severina (BL-2024-000648)
+
+- All records relating to the malware loader captured in the Internet Archive (Wayback Machine) snapshot of approximately 1 March 2024
+
+**Why this matters:** Particle Ink is a US company whose servers hosted the malware loader deployed against Nicola McNamee on 15 March 2024. Rosenthal is listed on Severina's defendant's questionnaire (October 2024) as a witness who would testify in person that Severina did not misappropriate Spector's IP. The Wayback Machine snapshot independently timestamps the malware infrastructure on US servers before the attack. This is a directly subpoenable US entity with forensic evidence preserved by a third party (Internet Archive, San Francisco).
+
+**Evidentiary basis:** US Jurisdictional Nexus (Document 03, Nexus 2B); Perpetrator Profiles (Document 07, Profile 11: Rosenthal); Intelligence Architecture (Document 06)
+
+---
+
 ### Action 6, Subpoena Orion Mine Finance
 
 **Agency:** DOJ Criminal Division (via federal grand jury) / HRSP coordination
@@ -116,7 +136,7 @@ This document consolidates the investigative actions and protective measures req
 
 - Representations made to limited partner investors (U.S. pension funds) regarding community opposition, planning risk, and human rights due diligence
 
-**Evidentiary basis:** Orion acquired a controlling stake in Dalradian Resources for US$407 million (September 2018). The mine is the financial motive at the center of this referral. Orion is a Delaware-registered entity headquartered in New York. Federal subpoena authority is direct, no international cooperation required. (Document 09, Nexus 2)
+**Evidentiary basis:** Orion acquired a controlling stake in Dalradian Resources for US$407 million (September 2018). The mine is the financial motive at the center of this referral. Orion is a Delaware-registered entity headquartered in New York. Federal subpoena authority is direct, no international cooperation required. (US Jurisdictional Nexus, Document 03, Nexus 4)
 
 ---
 
@@ -129,10 +149,10 @@ This document consolidates the investigative actions and protective measures req
 | Institution | Records to Preserve |
 |---|---|
 | **Belfast Health and Social Care Trust** | All Inherited Cardiac Conditions Service records; all cascade screening records triggered by County Tyrone index patients; all referral records to/from the Belfast Cardiac Unit for County Tyrone postcodes (BT79, BT78, BT81, BT82); complete diagnostic and treatment records for Nicola McNamee |
-| **KIMS Hospital / LycaHealth** | Complete medical records for Nicola McNamee including original clinical system exports (DXperience), metadata-intact PDFs, all ECG tracings in native format, operative reports, anaesthesia records, and all audit logs documenting record access, modification, or export |
+| **KIMS Hospital / LycaHealth** | Complete medical records for Nicola McNamee including original clinical system exports (DXperience), metadata-intact PDFs, all ECG tracings in native format, operative reports, anesthesia records, and all audit logs documenting record access, modification, or export |
 | **St George's Hospital, London** | All records relating to Nicola McNamee including referral correspondence from Belfast Inherited Cardiac Conditions Service, cardiology assessments, and any genetic testing orders or results |
 
-**Evidentiary basis:** The forensic analysis of Nicola McNamee's KIMS records (Document 05) identified systematic manipulation, metadata stripping, text layer removal, ECG data flattened to raster images, designed to defeat automated review. Original diagnostic records from Belfast and St George's are absent from the file. Preservation letters are necessary to prevent further destruction or manipulation of records that constitute primary evidence. (Documents 04, 04B, 06)
+**Evidentiary basis:** The forensic analysis of Nicola McNamee's KIMS records (Medical Infrastructure, Document 04) identified fabricated consultations, fabricated ECGs, and digital properties rendering the fabricated findings invisible to automated analysis (whether by deliberate obfuscation or paper-scanning artifacts requires investigation). Original diagnostic records from Belfast and St George's are absent from the file. Preservation letters are necessary to prevent further destruction or manipulation of records that constitute primary evidence. (Documents 04, 04-A, 06)
 
 **Urgency:** The complainants' departure from the UK and the filing of this submission create a foreseeable risk that records will be altered or destroyed. Preservation letters should issue immediately upon intake, regardless of whether a full investigation is opened.
 
@@ -159,7 +179,7 @@ This document consolidates the investigative actions and protective measures req
 
 Coordinate with the SEC to assess whether Orion's representations to LP investors regarding community opposition, planning risk, and the mine's development pathway were materially accurate. If the mine's development depends on the systematic displacement of the opposing community through a covert medical campaign, the investment thesis presented to these pension funds may have been materially misleading.
 
-**Evidentiary basis:** American public pension funds, managing retirement savings for teachers, firefighters, police officers, and state employees, are limited partners in Orion Mine Finance. The pension funds have regulatory obligations to respond to federal inquiries. (Document 09, Nexus 3)
+**Evidentiary basis:** American public pension funds, managing retirement savings for teachers, firefighters, police officers, and state employees, are limited partners in Orion Mine Finance. The pension funds have regulatory obligations to respond to federal inquiries. (US Jurisdictional Nexus, Document 03, Nexus 4)
 
 **Political significance:** This nexus creates Congressional engagement from every state with an exposed pension fund: Florida, Washington, Texas, Maine, Arizona, California, Oregon, North Carolina, and Michigan.
 
@@ -213,7 +233,7 @@ This analysis requires data from Belfast Health and Social Care Trust (obtainabl
 
 - Population change in the mine footprint area relative to comparable control areas in County Tyrone
 
-- Correlation between population decline and the cardiac screening programme's geographic reach
+- Correlation between population decline and the cardiac screening program's geographic reach
 
 **Evidentiary basis:** If the suspected medical targeting is functioning as covert depopulation, reducing the community's capacity to resist through false diagnoses, psychological harm, and excess mortality concealed by a 0.46% autopsy rate, the effect should be visible in census and electoral data. The 2015 boundary restructuring (splitting County Tyrone across three district councils) was identified in Document 05 as a concealment mechanism creating statistical discontinuity. This analysis should reconstruct the pre-restructuring County Tyrone boundary to restore statistical continuity. (Documents 03, 05)
 
@@ -231,7 +251,7 @@ This analysis requires data from Belfast Health and Social Care Trust (obtainabl
 
 - Crown Estate royalty projections and any communications between the Crown Estate and Dalradian/Orion regarding mine development timelines or community opposition
 
-**Evidentiary basis:** The Crown Estate owns all subsurface mineral rights in Northern Ireland and collects a 4% royalty on gold sold, potentially £308 million to £800 million from the Curraghinalt deposit alone. This creates direct financial alignment between the British Crown and the mine's success. Financial forensics can establish whether community investment was targeted to neutralize opposition or whether payments flowed to individuals with institutional access to the NHS screening programme. (Document 03)
+**Evidentiary basis:** The Crown Estate owns all subsurface mineral rights in Northern Ireland and collects a 4% royalty on gold sold, potentially £308 million to £800 million from the Curraghinalt deposit alone. This creates direct financial alignment between the British Crown and the mine's success. Financial forensics can establish whether community investment was targeted to neutralize opposition or whether payments flowed to individuals with institutional access to the NHS screening program. (US Jurisdictional Nexus, Document 03)
 
 ---
 
@@ -366,6 +386,7 @@ S visas are limited to 200 per fiscal year and require Attorney General or Deput
 | **3. Obtain Dr. Karacaoglu testimony** | **DOJ / FBI** | **Turkish legal channels** | **IMMEDIATE** |
 | 4. Open HRSP investigation | HRSP | FBI, NSD | Immediate |
 | 5. Obtain Sinaci clinic records | DOJ / FBI | Turkish legal channels | High |
+| **5A. Subpoena Particle Ink** | **DOJ Criminal Division / FBI** | | **HIGH: US-hosted malware infrastructure, Wayback Machine evidence** |
 | 6. Subpoena Orion Mine Finance | DOJ Criminal Division | SEC | High |
 | 7. Issue preservation letters | HRSP | | **Immediate regardless of investigation status** |
 | 8. Pension fund exposure / SEC coordination | DOJ Criminal Division | SEC, state pension regulators | High |
@@ -482,6 +503,6 @@ The complainants have provided the evidence. They are asking the Department of J
 
 ---
 
-*Document 10 of 10. Prepared for HRSP submission package, 1 March 2026.*
+*Document 10 of 13. Prepared for HRSP submission package, 5 March 2026.*
 
 *SENSITIVE: NOT FOR PUBLIC DISTRIBUTION*
