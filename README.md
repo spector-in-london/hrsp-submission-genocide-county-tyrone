@@ -2,19 +2,19 @@
 
 ## Filed by Brian Spector, U.S. Citizen, Texas
 
-**Date:** March 2026
+**Date:** 5 March 2026
 
 **Statutory basis:** 18 U.S.C. 1091 (Genocide), 18 U.S.C. 2340 (Torture)
 
-**Status:** DRAFT. This package is under active development and has not yet been formally transmitted to DOJ HRSP.
+**Status:** TRANSMITTED. This package was formally transmitted to DOJ HRSP via Senator Ted Cruz (R-TX) on 5 March 2026.
 
-**Intended recipient:** DOJ Human Rights and Special Prosecutions Section via Senator Ted Cruz (R-TX)
+**Recipient:** DOJ Human Rights and Special Prosecutions Section via Senator Ted Cruz (R-TX), Chairman, Senate Committee on Commerce, Science, and Transportation
 
 ---
 
 ## What This Repository Contains
 
-This is a draft criminal referral package intended for the United States Department of Justice, Human Rights and Special Prosecutions Section. It is published here for evidence preservation and public accountability while the submission is finalized. The package documents:
+This is a criminal referral package submitted to the United States Department of Justice, Human Rights and Special Prosecutions Section. It is published here for evidence preservation, public accountability, and integrity verification. The package documents:
 
 1. A sustained campaign of covert genocide using fabricated cardiac diagnoses targeting the Irish Catholic population of County Tyrone, Northern Ireland
 2. The attempted murder of Nicola McNamee through fabricated medical records at KIMS Hospital, Kent, UK
@@ -33,7 +33,7 @@ If anything happens to Brian Spector or Nicola McNamee, this evidence exists in 
 
 | File | Description |
 |------|-------------|
-| `HRSP-SUBMISSION-PACKAGE.pdf` | Complete 11-document HRSP submission (Documents 00-10) |
+| `SPECTOR-HRSP-SUBMISSION-PACKAGE.pdf` | Complete 13-section HRSP submission with embedded forensic images (ECG tracings, echocardiogram, genetic ancestry maps) |
 | `CRUZ_CONSTITUENT_LETTER.pdf` | Congressional constituent letter to Senator Ted Cruz |
 | `WITNESS_SAFETY_STATEMENT.pdf` | Emergency witness safety and deferred action request |
 
@@ -44,23 +44,38 @@ If anything happens to Brian Spector or Nicola McNamee, this evidence exists in 
 | 00 | Transmittal Letter to HRSP |
 | 01 | Executive Summary |
 | 02 | Human Rights Framework |
-| 03 | US Jurisdictional Nexus |
+| 03 | US Jurisdictional Nexus (6 independent bases) |
 | 04 | Medical Infrastructure (KIMS Hospital Forensics) |
 | 04-A | Medical Infrastructure Addendum (Pharmacological Kill Mechanism) |
 | 05 | Concealment Infrastructure |
 | 06 | Intelligence Architecture |
-| 06-A | Intelligence Architecture Forensics Addendum |
-| 07 | Perpetrator Profiles |
+| 06-A | Digital Forensics Addendum |
+| 07 | Perpetrator Profiles (13 profiles) |
 | 08 | Victim Documentation |
-| 09 | Convergence Analysis (60-Event Timeline) |
-| 10 | Requested Actions (18 Investigative Actions + 5 Protective Measures) |
+| 09 | Convergence Analysis |
+| 10 | Requested Actions (19 Investigative Actions + 5 Protective Measures) |
 
-### Evidence (EVIDENCE/)
+### Evidence Images (EVIDENCE/IMAGES/)
 
-| Folder | Contents |
-|--------|----------|
-| `MEDICAL/` | Unredacted KIMS Hospital medical records for Patient 147384 (Nicola McNamee). 6 files with SHA-256 verification. These records contain the fabricated consultations, fabricated ECGs, and three-layer digital obfuscation documented in Document 04. |
-| `EMAIL_TC_WARRANT/` | 13 original EML files constituting evidence of UK government tampering via Technical Capability Notice. Includes the anomalous empty-subject/empty-body emails (planted cardiac fabrication documents) and the Nordesthetics forwarding chain. SHA-256 verified. |
+| File | Description |
+|------|-------------|
+| `ECG_PAGE046.png` | Fabricated ECG, 21 Sep 2023. Orphan tracing, no documented consultation. "Anterior infarct, age undetermined." |
+| `ECG_PAGE047.png` | Fabricated ECG, 9 May 2023. From fabricated consultation. "Anterior infarct, age undetermined, Abnormal ECG." |
+| `ECG_PAGE048.png` | Possibly legitimate ECG, 21 Jun 2023. Pink grid, QR code, direct machine output. "Normal sinus rhythm, Normal ECG." |
+| `ECG_PAGE049.png` | Fabricated ECG, 21 Nov 2023. First of two tracings 72 seconds apart. "Cannot rule out Anterior infarct." |
+| `ECG_PAGE050.png` | Fabricated ECG, 21 Nov 2023. 72 seconds after page 49. "Evolving Lateral infarct." Mutually exclusive with preceding tracing. |
+| `Nicola McNamee Echocardiagram Report.jpg` | Memorial Hospital Istanbul, 11 Dec 2023. Independent echocardiogram: EF 65%, all structures normal. Proves KIMS infarction findings fabricated. |
+| `GREEN_TRIANGLES.png` | UK mapped by genetic ancestry (Oxford/Nature 2015). Shows Northern Irish as genetically distinct population. |
+| `GREEN_TRIANGLES_CLOSE_UP.png` | County Tyrone's distinct genetic markers, clustered in pale blue circle. |
+| `DALRADIAN_MAP.png` | Dalradian Resources mine location relative to targeted community. |
+
+### Medical Evidence (EVIDENCE/MEDICAL/)
+
+Unredacted KIMS Hospital medical records for Patient 147384 (Nicola McNamee). 6 files with SHA-256 verification. These records contain the fabricated consultations, fabricated ECGs, and digital properties documented in Document 04.
+
+### Email Evidence (EVIDENCE/EMAIL_TC_WARRANT/)
+
+13 original EML files constituting evidence of UK government tampering via Technical Capability Notice. Includes anomalous empty-subject/empty-body emails (planted cardiac fabrication documents) and the Nordesthetics forwarding chain. SHA-256 verified.
 
 ---
 
@@ -72,9 +87,9 @@ Every file in this repository is listed in `SHA256_MANIFEST.txt` with its crypto
 shasum -a 256 -c SHA256_MANIFEST.txt
 ```
 
-Medical evidence files have an additional independent manifest generated on 2026-02-26 at `EVIDENCE/MEDICAL/MEDICAL_HASH_MANIFEST.txt`.
+Medical evidence files have an additional independent manifest at `EVIDENCE/MEDICAL/MEDICAL_HASH_MANIFEST.txt`.
 
-Email evidence files have independent manifests generated on 2026-02-28 at `EVIDENCE/EMAIL_TC_WARRANT/SHA256_EML_MANIFEST_20260228.txt` and `SHA256_FWD_RECORDS_REQUEST_20260228.txt`.
+Email evidence files have independent manifests at `EVIDENCE/EMAIL_TC_WARRANT/SHA256_EML_MANIFEST_20260228.txt` and `SHA256_FWD_RECORDS_REQUEST_20260228.txt`.
 
 ---
 
@@ -83,7 +98,10 @@ Email evidence files have independent manifests generated on 2026-02-28 at `EVID
 The prosecution pathway runs entirely through US federal jurisdiction:
 
 - **Newark, NJ:** Lycamobile USA Inc. (controls KIMS Hospital via Lyca Group)
+- **Las Vegas, NV:** Particle Ink (malware infrastructure, Wayback Machine preserved)
+- **New York, NY:** Orion Mine Finance (controls Dalradian, US pension fund exposure)
 - **Istanbul:** Dr. Ercan Karacaoglu (Brown University, key witness)
+- **Evanston, IL:** Magnetar Capital (prior KIMS owner, due diligence records)
 - **Texas:** Both complainants (available for testimony)
 
 No UK cooperation is required at any stage.
