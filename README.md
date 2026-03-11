@@ -1,6 +1,6 @@
 # HRSP Submission: Genocide and Torture Targeting Irish Catholic Population, County Tyrone, Northern Ireland
 
-## Filed by Brian Spector, U.S. Citizen, Texas
+## Filed by Brian Spector and Nicola McNamee
 
 **Date:** 5 March 2026
 
@@ -108,12 +108,16 @@ No UK cooperation is required at any stage.
 
 ---
 
+## License
+
+Copyright (c) 2026 Brian Spector and Nicola McNamee. All rights reserved.
+
+This repository is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). You may share these materials with attribution, but you may not modify or use them commercially. The evidentiary integrity of this package must be preserved. See [LICENSE](LICENSE) for full terms.
+
+---
+
 ## Contact
 
 **Brian Spector** | U.S. Citizen, Texas
 
 brian@2real.stream | +1 737-326-6036
-
----
-
-*SENSITIVE: NOT FOR PUBLIC DISTRIBUTION*
